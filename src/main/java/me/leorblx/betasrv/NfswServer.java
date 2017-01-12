@@ -4,6 +4,7 @@ import com.google.common.collect.ImmutableMap;
 import me.leorblx.betasrv.modules.Module;
 import me.leorblx.betasrv.modules.ModuleManager;
 import me.leorblx.betasrv.utils.Log;
+import org.fusesource.jansi.AnsiConsole;
 
 public class NfswServer
 {
@@ -26,6 +27,8 @@ public class NfswServer
         System.setProperty("jsse.enableCBCProtection", "false");
         
         ModuleManager.getInstance().bootAll();
+
+        AnsiConsole.systemInstall();
         
         Runtime.getRuntime().addShutdownHook(new Thread(() -> {
             LOG.info("Shutting down...");
@@ -38,6 +41,8 @@ public class NfswServer
                     .map(e -> e.getKey() + ": " + e.getValue())
                     .forEach(LOG::info);
             LOG.info("-------------------------------------");
+            
+            AnsiConsole.systemUninstall();
         }));
     }
 }
