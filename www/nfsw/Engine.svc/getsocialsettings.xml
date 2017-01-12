@@ -1,0 +1,9 @@
+<SocialSettings xmlns="http://schemas.datacontract.org/2004/07/EA.NFSWO.ENGINE.DataLayer.Serialization.Social"
+                xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <appearOffline>false</appearOffline>
+    <declineIncommingFriendRequests>false</declineIncommingFriendRequests>
+    <hideOfflineFriends>false</hideOfflineFriends>
+    <personaId>3229536</personaId>
+    <showNewsOnSignIn>false</showNewsOnSignIn>
+    <showOnlyPlayersInSameChatChannel>false</showOnlyPlayersInSameChatChannel>
+</SocialSettings>

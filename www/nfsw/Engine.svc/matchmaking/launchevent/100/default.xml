@@ -1,0 +1,11 @@
+<SessionInfo xmlns="http://schemas.datacontract.org/2004/07/Victory.Service"
+             xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Challenge>
+        <ChallengeId>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</ChallengeId>
+        <LeftSize>14</LeftSize>
+        <Pattern>FFFFFFFFFFFFFFFF</Pattern>
+        <RightSize>50</RightSize>
+    </Challenge>
+    <EventId>45</EventId>
+    <SessionId>1000000000</SessionId>
+</SessionInfo>

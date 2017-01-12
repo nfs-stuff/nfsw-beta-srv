@@ -1,0 +1,6 @@
+<ClientServerCryptoTicket xmlns="http://schemas.datacontract.org/2004/07/EA.NFSWO.ENGINE.DataLayer.Serialization"
+                          xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <CryptoTicket>JMT9BMYq3hB3ANc0K5R4UyfI57RYkh76IXYIXw1O01A=</CryptoTicket>
+    <SessionKey>FMb88lBCpYFqrEzsigPNVA==</SessionKey>
+    <TicketIv>Lhjt9mBUDHeOXcdkbbhwpA==</TicketIv>
+</ClientServerCryptoTicket>

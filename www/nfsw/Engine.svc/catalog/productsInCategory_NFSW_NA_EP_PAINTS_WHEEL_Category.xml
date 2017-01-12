@@ -1,0 +1,55 @@
+<ArrayOfProductTrans
+        xmlns="http://schemas.datacontract.org/2004/07/EA.NFSWO.ENGINE.DataLayer.Serialization"
+        xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId>-1906205122</CategoryId>
+        <Currency>CASH</Currency>
+        <Description>CATALOG_WHEEL_MATTE_SHORT_DESC</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>357200846</Hash>
+        <Icon/>
+        <Level>0</Level>
+        <LongDescription>CATALOG_WHEEL_MATTE_LONG_DESC</LongDescription>
+        <Price>500.0000</Price>
+        <Priority>0</Priority>
+        <ProductId>NFSW-NA:154A73CE</ProductId>
+        <ProductTitle>CATALOG_WHEEL_MATTE_DISPLAY_NAME</ProductTitle>
+        <ProductType>PAINT_WHEEL</ProductType>
+        <UseCount>1</UseCount>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId>-1906205122</CategoryId>
+        <Currency>CASH</Currency>
+        <Description>CATALOG_WHEEL_CHROME_SHORT_DESC</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>-1480403439</Hash>
+        <Icon/>
+        <Level>0</Level>
+        <LongDescription>CATALOG_WHEEL_CHROME_LONG_DESC</LongDescription>
+        <Price>1000.0000</Price>
+        <Priority>0</Priority>
+        <ProductId>NFSW-NA:A7C2D611</ProductId>
+        <ProductTitle>CATALOG_WHEEL_CHROME_DISPLAY_NAME</ProductTitle>
+        <ProductType>PAINT_WHEEL</ProductType>
+        <UseCount>1</UseCount>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId>-1906205122</CategoryId>
+        <Currency>CASH</Currency>
+        <Description>CATALOG_WHEEL_METALLIC_SHORT_DESC</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>-81736162</Hash>
+        <Icon/>
+        <Level>0</Level>
+        <LongDescription>CATALOG_WHEEL_METALLIC_LONG_DESC</LongDescription>
+        <Price>250.0000</Price>
+        <Priority>0</Priority>
+        <ProductId>NFSW-NA:FB20CE1E</ProductId>
+        <ProductTitle>CATALOG_WHEEL_METALLIC_DISPLAY_NAME</ProductTitle>
+        <ProductType>PAINT_WHEEL</ProductType>
+        <UseCount>1</UseCount>
+    </ProductTrans>
+</ArrayOfProductTrans>

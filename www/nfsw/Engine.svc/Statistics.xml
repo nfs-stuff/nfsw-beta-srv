@@ -1,0 +1,20 @@
+<ArrayOfPersonaStats xmlns="http://schemas.datacontract.org/2004/07/EA.NFSWO.ENGINE.DataLayer.Serialization"
+                     xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <PersonaStats>
+        <pid>100</pid>
+        <stats>
+            <Stat>
+                <id>carsPurchased</id>
+                <val>1</val>
+            </Stat>
+            <Stat>
+                <id>mpRacesWon</id>
+                <val>13</val>
+            </Stat>
+            <Stat>
+                <id>mpRacesLost</id>
+                <val>37</val>
+            </Stat>
+        </stats>
+    </PersonaStats>
+</ArrayOfPersonaStats>

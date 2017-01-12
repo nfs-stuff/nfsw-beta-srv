@@ -1,0 +1,38 @@
+<ArrayOfProductTrans
+        xmlns="http://schemas.datacontract.org/2004/07/EA.NFSWO.ENGINE.DataLayer.Serialization"
+        xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId>-932080873</CategoryId>
+        <Currency>_NS</Currency>
+        <Description>CATALOG_CASH_AMPLIFIER_1_SHORT_DESC</Description>
+        <DurationMinute>4320</DurationMinute>
+        <Hash>183412319</Hash>
+        <Icon>128_cash</Icon>
+        <Level>0</Level>
+        <LongDescription>CATALOG_CASH_AMPLIFIER_1_LONG_DESC</LongDescription>
+        <Price>1500.0000</Price>
+        <Priority>0</Priority>
+        <ProductId>NFSW-NA:0129C326</ProductId>
+        <ProductTitle>CATALOG_CASH_AMPLIFIER_1_DISPLAY_NAME</ProductTitle>
+        <ProductType>AMPLIFIER</ProductType>
+        <UseCount>0</UseCount>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId>-932080873</CategoryId>
+        <Currency>_NS</Currency>
+        <Description>CATALOG_REP_AMPLIFIER_1_SHORT_DESC</Description>
+        <DurationMinute>4320</DurationMinute>
+        <Hash>1590579111</Hash>
+        <Icon>128_rep</Icon>
+        <Level>0</Level>
+        <LongDescription>CATALOG_REP_AMPLIFIER_1_LONG_DESC</LongDescription>
+        <Price>1500.0000</Price>
+        <Priority>0</Priority>
+        <ProductId>NFSW-NA:6B19046E</ProductId>
+        <ProductTitle>CATALOG_REP_AMPLIFIER_1_DISPLAY_NAME</ProductTitle>
+        <ProductType>AMPLIFIER</ProductType>
+        <UseCount>0</UseCount>
+    </ProductTrans>
+</ArrayOfProductTrans>

@@ -1,0 +1,21 @@
+<ProductTrans xmlns="http://schemas.datacontract.org/2004/07/EA.NFSWO.ENGINE.DataLayer.Serialization"
+              xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <BundleItems i:nil="true"/>
+    <CategoryId i:nil="true"/>
+    <Currency>CASH</Currency>
+    <Description>GM_CATALOG_000000CE,1</Description>
+    <DurationMinute>0</DurationMinute>
+    <Hash>-1681514783</Hash>
+    <Icon>product_nos_x1</Icon>
+    <Level>0</Level>
+    <LongDescription>GM_CATALOG_000000CF,1</LongDescription>
+    <Price>0.0000</Price>
+    <Priority>0</Priority>
+    <ProductId>NFSW-NA:D4AC09FF</ProductId>
+    <ProductTitle>GM_CATALOG_00000633,1</ProductTitle>
+    <ProductType>POWERUP</ProductType>
+    <UseCount>1</UseCount>
+    <VisualStyle>0</VisualStyle>
+    <WebIcon/>
+    <WebLocation/>
+</ProductTrans>

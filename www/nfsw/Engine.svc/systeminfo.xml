@@ -1,0 +1,21 @@
+<SystemInfo xmlns="http://schemas.datacontract.org/2004/07/EA.NFSWO.ENGINE.Service"
+            xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Branch>production</Branch>
+    <ChangeList>539215</ChangeList>
+    <ClientVersion>12</ClientVersion>
+    <ClientVersionCheck>true</ClientVersionCheck>
+    <Deployed>3/3/2011 2:26:34 AM</Deployed>
+    <EntitlementsToDownload>true</EntitlementsToDownload>
+    <EntitlementsToPlay>true</EntitlementsToPlay>
+    <ForcePermanentSession>true</ForcePermanentSession>
+    <JidPrepender>nfsw</JidPrepender>
+    <LauncherServiceUrl>http://10.100.15.202/LauncherService/onlineconfig.aspx</LauncherServiceUrl>
+    <NucleusNamespace>nfsw-live</NucleusNamespace>
+    <NucleusNamespaceWeb>nfs_web</NucleusNamespaceWeb>
+    <PersonaCacheTimeout>900</PersonaCacheTimeout>
+    <PortalDomain>webkit.world.needforspeed.com</PortalDomain>
+    <PortalSecureDomain>webkit.world.needforspeed.com</PortalSecureDomain>
+    <PortalTimeOut>60000</PortalTimeOut>
+    <Time>2011-03-07T19:59:55.0343679+00:00</Time>
+    <Version>302</Version>
+</SystemInfo>

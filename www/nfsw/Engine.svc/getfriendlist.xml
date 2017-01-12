@@ -1,0 +1,5 @@
+<PersonaFriendsList xmlns="http://schemas.datacontract.org/2004/07/EA.NFSWO.ENGINE.TransferObjects.DriverPersona"
+                    xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <friendPersona/>
+    <personaId>100</personaId>
+</PersonaFriendsList>

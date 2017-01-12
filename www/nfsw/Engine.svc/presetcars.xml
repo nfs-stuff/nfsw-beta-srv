@@ -1,0 +1,2323 @@
+<ArrayOfProductTrans xmlns="http://schemas.datacontract.org/2004/07/EA.NFSWO.ENGINE.DataLayer.Serialization"
+                     xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>CASH</Currency>
+        <Description>GM_CATALOG_0000011B,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>1423697724</Hash>
+        <Icon/>
+        <Level>20</Level>
+        <LongDescription>GM_CATALOG_0000011C,1</LongDescription>
+        <Price>250000.0000</Price>
+        <Priority>2</Priority>
+        <ProductId>NFSW-NA:002ECB87</ProductId>
+        <ProductTitle>GM_CATALOG_00000101,1</ProductTitle>
+        <ProductType>PRESETCAR</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon/>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>CASH</Currency>
+        <Description>GM_CATALOG_0000011B,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>1423697725</Hash>
+        <Icon/>
+        <Level>20</Level>
+        <LongDescription>GM_CATALOG_0000011C,1</LongDescription>
+        <Price>250000.0000</Price>
+        <Priority>3</Priority>
+        <ProductId>NFSW-NA:0283F429</ProductId>
+        <ProductTitle>GM_CATALOG_000000FA,1</ProductTitle>
+        <ProductType>PRESETCAR</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon/>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>CASH</Currency>
+        <Description>GM_CATALOG_000000FF,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>179951406</Hash>
+        <Icon/>
+        <Level>25</Level>
+        <LongDescription>GM_CATALOG_000000FF,1</LongDescription>
+        <Price>400000.0000</Price>
+        <Priority>3</Priority>
+        <ProductId>NFSW-NA:0AB9D72E</ProductId>
+        <ProductTitle>GM_CATALOG_000000FA,1</ProductTitle>
+        <ProductType>PRESETCAR</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon/>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>CASH</Currency>
+        <Description>GM_CATALOG_0000011B,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>1423697729</Hash>
+        <Icon/>
+        <Level>20</Level>
+        <LongDescription>GM_CATALOG_0000011C,1</LongDescription>
+        <Price>250000.0000</Price>
+        <Priority>1</Priority>
+        <ProductId>NFSW-NA:0BD896AE</ProductId>
+        <ProductTitle>GM_CATALOG_000000FC,1</ProductTitle>
+        <ProductType>PRESETCAR</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon/>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>CASH</Currency>
+        <Description>GM_CATALOG_00000120,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>-645457904</Hash>
+        <Icon/>
+        <Level>25</Level>
+        <LongDescription>GM_CATALOG_00000120,1</LongDescription>
+        <Price>400000.0000</Price>
+        <Priority>3</Priority>
+        <ProductId>NFSW-NA:0DDDA11C</ProductId>
+        <ProductTitle>GM_CATALOG_00000103,1</ProductTitle>
+        <ProductType>PRESETCAR</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon/>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>CASH</Currency>
+        <Description>GM_CATALOG_00000114,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>-1868915148</Hash>
+        <Icon/>
+        <Level>25</Level>
+        <LongDescription>GM_CATALOG_00000114,1</LongDescription>
+        <Price>400000.0000</Price>
+        <Priority>4</Priority>
+        <ProductId>NFSW-NA:100E9D9D</ProductId>
+        <ProductTitle>GM_CATALOG_000000FE,1</ProductTitle>
+        <ProductType>PRESETCAR</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon/>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>CASH</Currency>
+        <Description>GM_CATALOG_00000120,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>-645457902</Hash>
+        <Icon/>
+        <Level>25</Level>
+        <LongDescription>GM_CATALOG_00000120,1</LongDescription>
+        <Price>400000.0000</Price>
+        <Priority>1</Priority>
+        <ProductId>NFSW-NA:1287F25F</ProductId>
+        <ProductTitle>GM_CATALOG_00000101,1</ProductTitle>
+        <ProductType>PRESETCAR</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon/>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>CASH</Currency>
+        <Description>GM_CATALOG_0000011B,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>1423697733</Hash>
+        <Icon/>
+        <Level>20</Level>
+        <LongDescription>GM_CATALOG_0000011C,1</LongDescription>
+        <Price>250000.0000</Price>
+        <Priority>4</Priority>
+        <ProductId>NFSW-NA:152D3933</ProductId>
+        <ProductTitle>GM_CATALOG_000000FE,1</ProductTitle>
+        <ProductType>PRESETCAR</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon/>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>CASH</Currency>
+        <Description>GM_CATALOG_00000120,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>-645457900</Hash>
+        <Icon/>
+        <Level>25</Level>
+        <LongDescription>GM_CATALOG_00000120,1</LongDescription>
+        <Price>400000.0000</Price>
+        <Priority>2</Priority>
+        <ProductId>NFSW-NA:173243A2</ProductId>
+        <ProductTitle>GM_CATALOG_000000FA,1</ProductTitle>
+        <ProductType>PRESETCAR</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon/>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>CASH</Currency>
+        <Description>GM_CATALOG_000000FB,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>17792308</Hash>
+        <Icon/>
+        <Level>35</Level>
+        <LongDescription>GM_CATALOG_000000FB,1</LongDescription>
+        <Price>850000.0000</Price>
+        <Priority>3</Priority>
+        <ProductId>NFSW-NA:1766D942</ProductId>
+        <ProductTitle>GM_CATALOG_000000FA,1</ProductTitle>
+        <ProductType>PRESETCAR</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon/>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>CASH</Currency>
+        <Description>GM_CATALOG_0000010F,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>413746708</Hash>
+        <Icon/>
+        <Level>15</Level>
+        <LongDescription>GM_CATALOG_0000010F,1</LongDescription>
+        <Price>160000.0000</Price>
+        <Priority>31</Priority>
+        <ProductId>NFSW-NA:18A94614</ProductId>
+        <ProductTitle>GM_CATALOG_00000558,1</ProductTitle>
+        <ProductType>PRESETCAR</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon/>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>CASH</Currency>
+        <Description>GM_CATALOG_00000102,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>413771319</Hash>
+        <Icon/>
+        <Level>30</Level>
+        <LongDescription>GM_CATALOG_00000102,1</LongDescription>
+        <Price>600000.0000</Price>
+        <Priority>1</Priority>
+        <ProductId>NFSW-NA:18A9A637</ProductId>
+        <ProductTitle>GM_CATALOG_00000101,1</ProductTitle>
+        <ProductType>PRESETCAR</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon/>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>CASH</Currency>
+        <Description>GM_CATALOG_00000102,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>413771322</Hash>
+        <Icon/>
+        <Level>30</Level>
+        <LongDescription>GM_CATALOG_00000102,1</LongDescription>
+        <Price>600000.0000</Price>
+        <Priority>3</Priority>
+        <ProductId>NFSW-NA:18A9A63A</ProductId>
+        <ProductTitle>GM_CATALOG_00000103,1</ProductTitle>
+        <ProductType>PRESETCAR</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon/>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>CASH</Currency>
+        <Description>GM_CATALOG_00000102,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>413771326</Hash>
+        <Icon/>
+        <Level>30</Level>
+        <LongDescription>GM_CATALOG_00000102,1</LongDescription>
+        <Price>600000.0000</Price>
+        <Priority>2</Priority>
+        <ProductId>NFSW-NA:18A9A63E</ProductId>
+        <ProductTitle>GM_CATALOG_00000104,1</ProductTitle>
+        <ProductType>PRESETCAR</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon/>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>CASH</Currency>
+        <Description>GM_CATALOG_000000FB,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>17792309</Hash>
+        <Icon/>
+        <Level>35</Level>
+        <LongDescription>GM_CATALOG_000000FB,1</LongDescription>
+        <Price>850000.0000</Price>
+        <Priority>1</Priority>
+        <ProductId>NFSW-NA:19BC01E4</ProductId>
+        <ProductTitle>GM_CATALOG_000000FC,1</ProductTitle>
+        <ProductType>PRESETCAR</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon/>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>CASH</Currency>
+        <Description>GM_CATALOG_000000FB,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>17792310</Hash>
+        <Icon/>
+        <Level>35</Level>
+        <LongDescription>GM_CATALOG_000000FB,1</LongDescription>
+        <Price>850000.0000</Price>
+        <Priority>2</Priority>
+        <ProductId>NFSW-NA:1C112A86</ProductId>
+        <ProductTitle>GM_CATALOG_000000FD,1</ProductTitle>
+        <ProductType>PRESETCAR</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon/>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>CASH</Currency>
+        <Description>GM_CATALOG_00000120,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>-645457896</Hash>
+        <Icon/>
+        <Level>25</Level>
+        <LongDescription>GM_CATALOG_00000120,1</LongDescription>
+        <Price>400000.0000</Price>
+        <Priority>4</Priority>
+        <ProductId>NFSW-NA:2086E627</ProductId>
+        <ProductTitle>GM_CATALOG_000000FE,1</ProductTitle>
+        <ProductType>PRESETCAR</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon/>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>CASH</Currency>
+        <Description>GM_CATALOG_00000108,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>651104468</Hash>
+        <Icon/>
+        <Level>1</Level>
+        <LongDescription>GM_CATALOG_00000108,1</LongDescription>
+        <Price>20000.0000</Price>
+        <Priority>3</Priority>
+        <ProductId>NFSW-NA:26CF10D4</ProductId>
+        <ProductTitle>GM_CATALOG_000000FA,1</ProductTitle>
+        <ProductType>PRESETCAR</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon/>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>CASH</Currency>
+        <Description>GM_CATALOG_00000108,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>651104472</Hash>
+        <Icon/>
+        <Level>1</Level>
+        <LongDescription>GM_CATALOG_00000108,1</LongDescription>
+        <Price>20000.0000</Price>
+        <Priority>4</Priority>
+        <ProductId>NFSW-NA:26CF10D8</ProductId>
+        <ProductTitle>GM_CATALOG_000000FE,1</ProductTitle>
+        <ProductType>PRESETCAR</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon/>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>CASH</Currency>
+        <Description>GM_CATALOG_00000108,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>651104473</Hash>
+        <Icon/>
+        <Level>1</Level>
+        <LongDescription>GM_CATALOG_00000108,1</LongDescription>
+        <Price>20000.0000</Price>
+        <Priority>1</Priority>
+        <ProductId>NFSW-NA:26CF10D9</ProductId>
+        <ProductTitle>GM_CATALOG_00000101,1</ProductTitle>
+        <ProductType>PRESETCAR</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon/>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>CASH</Currency>
+        <Description>GM_CATALOG_00000108,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>651104474</Hash>
+        <Icon/>
+        <Level>1</Level>
+        <LongDescription>GM_CATALOG_00000108,1</LongDescription>
+        <Price>20000.0000</Price>
+        <Priority>2</Priority>
+        <ProductId>NFSW-NA:26CF10DA</ProductId>
+        <ProductTitle>GM_CATALOG_000000FD,1</ProductTitle>
+        <ProductType>PRESETCAR</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon/>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>CASH</Currency>
+        <Description>GM_CATALOG_0000010F,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>-620644239</Hash>
+        <Icon/>
+        <Level>15</Level>
+        <LongDescription>GM_CATALOG_0000010F,1</LongDescription>
+        <Price>130000.0000</Price>
+        <Priority>2</Priority>
+        <ProductId>NFSW-NA:2740A621</ProductId>
+        <ProductTitle>GM_CATALOG_000000FA,1</ProductTitle>
+        <ProductType>PRESETCAR</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon/>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>CASH</Currency>
+        <Description>GM_CATALOG_000000FB,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>17792315</Hash>
+        <Icon/>
+        <Level>35</Level>
+        <LongDescription>GM_CATALOG_000000FB,1</LongDescription>
+        <Price>850000.0000</Price>
+        <Priority>4</Priority>
+        <ProductId>NFSW-NA:27BAF5AC</ProductId>
+        <ProductTitle>GM_CATALOG_000000FE,1</ProductTitle>
+        <ProductType>PRESETCAR</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon/>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>CASH</Currency>
+        <Description>GM_CATALOG_00000109,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>701506994</Hash>
+        <Icon/>
+        <Level>30</Level>
+        <LongDescription>GM_CATALOG_00000109,1</LongDescription>
+        <Price>600000.0000</Price>
+        <Priority>3</Priority>
+        <ProductId>NFSW-NA:29D025B2</ProductId>
+        <ProductTitle>GM_CATALOG_000000FA,1</ProductTitle>
+        <ProductType>PRESETCAR</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon/>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>CASH</Currency>
+        <Description>GM_CATALOG_00000109,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>701506995</Hash>
+        <Icon/>
+        <Level>30</Level>
+        <LongDescription>GM_CATALOG_00000109,1</LongDescription>
+        <Price>600000.0000</Price>
+        <Priority>4</Priority>
+        <ProductId>NFSW-NA:29D025B3</ProductId>
+        <ProductTitle>GM_CATALOG_000000FE,1</ProductTitle>
+        <ProductType>PRESETCAR</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon/>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>CASH</Currency>
+        <Description>GM_CATALOG_00000109,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>701506998</Hash>
+        <Icon/>
+        <Level>30</Level>
+        <LongDescription>GM_CATALOG_00000109,1</LongDescription>
+        <Price>600000.0000</Price>
+        <Priority>2</Priority>
+        <ProductId>NFSW-NA:29D025B6</ProductId>
+        <ProductTitle>GM_CATALOG_000000FD,1</ProductTitle>
+        <ProductType>PRESETCAR</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon/>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>CASH</Currency>
+        <Description>GM_CATALOG_00000109,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>701507003</Hash>
+        <Icon/>
+        <Level>30</Level>
+        <LongDescription>GM_CATALOG_00000109,1</LongDescription>
+        <Price>600000.0000</Price>
+        <Priority>1</Priority>
+        <ProductId>NFSW-NA:29D025BB</ProductId>
+        <ProductTitle>GM_CATALOG_00000101,1</ProductTitle>
+        <ProductType>PRESETCAR</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon/>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>CASH</Currency>
+        <Description>GM_CATALOG_0000010A,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>747501081</Hash>
+        <Icon/>
+        <Level>1</Level>
+        <LongDescription>GM_CATALOG_0000010A,1</LongDescription>
+        <Price>20000.0000</Price>
+        <Priority>4</Priority>
+        <ProductId>NFSW-NA:2C8DF619</ProductId>
+        <ProductTitle>GM_CATALOG_000000FE,1</ProductTitle>
+        <ProductType>PRESETCAR</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon/>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>CASH</Currency>
+        <Description>GM_CATALOG_0000010A,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>747501082</Hash>
+        <Icon/>
+        <Level>1</Level>
+        <LongDescription>GM_CATALOG_0000010A,1</LongDescription>
+        <Price>20000.0000</Price>
+        <Priority>1</Priority>
+        <ProductId>NFSW-NA:2C8DF61A</ProductId>
+        <ProductTitle>GM_CATALOG_00000101,1</ProductTitle>
+        <ProductType>PRESETCAR</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon/>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>CASH</Currency>
+        <Description>GM_CATALOG_0000010A,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>747501084</Hash>
+        <Icon/>
+        <Level>1</Level>
+        <LongDescription>GM_CATALOG_0000010A,1</LongDescription>
+        <Price>20000.0000</Price>
+        <Priority>3</Priority>
+        <ProductId>NFSW-NA:2C8DF61C</ProductId>
+        <ProductTitle>GM_CATALOG_00000103,1</ProductTitle>
+        <ProductType>PRESETCAR</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon/>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>CASH</Currency>
+        <Description>GM_CATALOG_00000102,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>769551729</Hash>
+        <Icon/>
+        <Level>30</Level>
+        <LongDescription>GM_CATALOG_00000102,1</LongDescription>
+        <Price>600000.0000</Price>
+        <Priority>4</Priority>
+        <ProductId>NFSW-NA:2DDE6D71</ProductId>
+        <ProductTitle>GM_CATALOG_000000FE,1</ProductTitle>
+        <ProductType>PRESETCAR</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon/>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>CASH</Currency>
+        <Description>GM_CATALOG_0000010C,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>809762803</Hash>
+        <Icon/>
+        <Level>5</Level>
+        <LongDescription>GM_CATALOG_0000010C,1</LongDescription>
+        <Price>30000.0000</Price>
+        <Priority>3</Priority>
+        <ProductId>NFSW-NA:3043FFF3</ProductId>
+        <ProductTitle>GM_CATALOG_0000010B,1</ProductTitle>
+        <ProductType>PRESETCAR</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon/>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>CASH</Currency>
+        <Description>GM_CATALOG_0000010C,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>809762808</Hash>
+        <Icon/>
+        <Level>5</Level>
+        <LongDescription>GM_CATALOG_0000010C,1</LongDescription>
+        <Price>30000.0000</Price>
+        <Priority>4</Priority>
+        <ProductId>NFSW-NA:3043FFF8</ProductId>
+        <ProductTitle>GM_CATALOG_00000103,1</ProductTitle>
+        <ProductType>PRESETCAR</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon/>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>CASH</Currency>
+        <Description>GM_CATALOG_0000010F,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>-620644234</Hash>
+        <Icon/>
+        <Level>15</Level>
+        <LongDescription>GM_CATALOG_0000010F,1</LongDescription>
+        <Price>130000.0000</Price>
+        <Priority>3</Priority>
+        <ProductId>NFSW-NA:32EA715E</ProductId>
+        <ProductTitle>GM_CATALOG_00000103,1</ProductTitle>
+        <ProductType>PRESETCAR</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon/>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>CASH</Currency>
+        <Description>GM_CATALOG_0000010F,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>-620644233</Hash>
+        <Icon/>
+        <Level>15</Level>
+        <LongDescription>GM_CATALOG_0000010F,1</LongDescription>
+        <Price>130000.0000</Price>
+        <Priority>1</Priority>
+        <ProductId>NFSW-NA:353F9A00</ProductId>
+        <ProductTitle>GM_CATALOG_00000101,1</ProductTitle>
+        <ProductType>PRESETCAR</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon/>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>CASH</Currency>
+        <Description>GM_CATALOG_0000010E,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>935201273</Hash>
+        <Icon/>
+        <Level>10</Level>
+        <LongDescription>GM_CATALOG_0000010E,1</LongDescription>
+        <Price>60000.0000</Price>
+        <Priority>4</Priority>
+        <ProductId>NFSW-NA:37BE09F9</ProductId>
+        <ProductTitle>GM_CATALOG_000000FE,1</ProductTitle>
+        <ProductType>PRESETCAR</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon/>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>CASH</Currency>
+        <Description>GM_CATALOG_0000010C,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>952368808</Hash>
+        <Icon/>
+        <Level>5</Level>
+        <LongDescription>GM_CATALOG_0000010C,1</LongDescription>
+        <Price>30000.0000</Price>
+        <Priority>2</Priority>
+        <ProductId>NFSW-NA:38C3FEA8</ProductId>
+        <ProductTitle>GM_CATALOG_00000104,1</ProductTitle>
+        <ProductType>PRESETCAR</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon/>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>CASH</Currency>
+        <Description>GM_CATALOG_0000010C,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>952368813</Hash>
+        <Icon/>
+        <Level>5</Level>
+        <LongDescription>GM_CATALOG_0000010C,1</LongDescription>
+        <Price>30000.0000</Price>
+        <Priority>1</Priority>
+        <ProductId>NFSW-NA:38C3FEAD</ProductId>
+        <ProductTitle>GM_CATALOG_000000FD,1</ProductTitle>
+        <ProductType>PRESETCAR</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon/>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>CASH</Currency>
+        <Description>GM_CATALOG_0000010D,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>1458528283</Hash>
+        <Icon/>
+        <Level>40</Level>
+        <LongDescription>GM_CATALOG_0000010D,1</LongDescription>
+        <Price>1200000.0000</Price>
+        <Priority>3</Priority>
+        <ProductId>NFSW-NA:395BA7E1</ProductId>
+        <ProductTitle>GM_CATALOG_00000103,1</ProductTitle>
+        <ProductType>PRESETCAR</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon/>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>CASH</Currency>
+        <Description>GM_CATALOG_0000010D,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>1458528284</Hash>
+        <Icon/>
+        <Level>40</Level>
+        <LongDescription>GM_CATALOG_0000010D,1</LongDescription>
+        <Price>1200000.0000</Price>
+        <Priority>1</Priority>
+        <ProductId>NFSW-NA:3BB0D083</ProductId>
+        <ProductTitle>GM_CATALOG_000000FD,1</ProductTitle>
+        <ProductType>PRESETCAR</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon/>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>CASH</Currency>
+        <Description>GM_CATALOG_00000111,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>1016727685</Hash>
+        <Icon/>
+        <Level>5</Level>
+        <LongDescription>GM_CATALOG_00000111,1</LongDescription>
+        <Price>30000.0000</Price>
+        <Priority>3</Priority>
+        <ProductId>NFSW-NA:3C9A0885</ProductId>
+        <ProductTitle>GM_CATALOG_00000110,1</ProductTitle>
+        <ProductType>PRESETCAR</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon/>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>CASH</Currency>
+        <Description>GM_CATALOG_00000111,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>1016727689</Hash>
+        <Icon/>
+        <Level>5</Level>
+        <LongDescription>GM_CATALOG_00000111,1</LongDescription>
+        <Price>30000.0000</Price>
+        <Priority>1</Priority>
+        <ProductId>NFSW-NA:3C9A0889</ProductId>
+        <ProductTitle>GM_CATALOG_000000FD,1</ProductTitle>
+        <ProductType>PRESETCAR</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon/>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>CASH</Currency>
+        <Description>GM_CATALOG_00000111,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>1016727690</Hash>
+        <Icon/>
+        <Level>5</Level>
+        <LongDescription>GM_CATALOG_00000111,1</LongDescription>
+        <Price>30000.0000</Price>
+        <Priority>2</Priority>
+        <ProductId>NFSW-NA:3C9A088A</ProductId>
+        <ProductTitle>GM_CATALOG_00000112,1</ProductTitle>
+        <ProductType>PRESETCAR</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon/>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>CASH</Currency>
+        <Description>GM_CATALOG_0000010D,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>1458528286</Hash>
+        <Icon/>
+        <Level>40</Level>
+        <LongDescription>GM_CATALOG_0000010D,1</LongDescription>
+        <Price>1200000.0000</Price>
+        <Priority>2</Priority>
+        <ProductId>NFSW-NA:405B21C6</ProductId>
+        <ProductTitle>GM_CATALOG_000000FA,1</ProductTitle>
+        <ProductType>PRESETCAR</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon/>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>CASH</Currency>
+        <Description>GM_CATALOG_00000115,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>1133182666</Hash>
+        <Icon/>
+        <Level>1</Level>
+        <LongDescription>GM_CATALOG_00000115,1</LongDescription>
+        <Price>20000.0000</Price>
+        <Priority>4</Priority>
+        <ProductId>NFSW-NA:438AFECA</ProductId>
+        <ProductTitle>GM_CATALOG_000000FE,1</ProductTitle>
+        <ProductType>PRESETCAR</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon/>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>CASH</Currency>
+        <Description>GM_CATALOG_00000115,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>1133182668</Hash>
+        <Icon/>
+        <Level>1</Level>
+        <LongDescription>GM_CATALOG_00000115,1</LongDescription>
+        <Price>20000.0000</Price>
+        <Priority>1</Priority>
+        <ProductId>NFSW-NA:438AFECC</ProductId>
+        <ProductTitle>GM_CATALOG_00000101,1</ProductTitle>
+        <ProductType>PRESETCAR</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon/>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>CASH</Currency>
+        <Description>GM_CATALOG_00000115,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>1133182670</Hash>
+        <Icon/>
+        <Level>1</Level>
+        <LongDescription>GM_CATALOG_00000115,1</LongDescription>
+        <Price>20000.0000</Price>
+        <Priority>3</Priority>
+        <ProductId>NFSW-NA:438AFECE</ProductId>
+        <ProductTitle>GM_CATALOG_00000103,1</ProductTitle>
+        <ProductType>PRESETCAR</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon/>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>CASH</Currency>
+        <Description>GM_CATALOG_000000F6,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>1134069115</Hash>
+        <Icon/>
+        <Level>1</Level>
+        <LongDescription>GM_CATALOG_000000F6,1</LongDescription>
+        <Price>0.0000</Price>
+        <Priority>31</Priority>
+        <ProductId>NFSW-NA:4398857B</ProductId>
+        <ProductTitle>GM_CATALOG_000000F6,1</ProductTitle>
+        <ProductType>PRESETCAR</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon/>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>CASH</Currency>
+        <Description>GM_CATALOG_0000010D,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>886793165</Hash>
+        <Icon/>
+        <Level>40</Level>
+        <LongDescription>GM_CATALOG_0000010D,1</LongDescription>
+        <Price>1200000.0000</Price>
+        <Priority>4</Priority>
+        <ProductId>NFSW-NA:4977C7A3</ProductId>
+        <ProductTitle>GM_CATALOG_000000FE,1</ProductTitle>
+        <ProductType>PRESETCAR</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon/>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>CASH</Currency>
+        <Description>GM_CATALOG_00000117,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>1239079674</Hash>
+        <Icon/>
+        <Level>30</Level>
+        <LongDescription>GM_CATALOG_00000117,1</LongDescription>
+        <Price>600000.0000</Price>
+        <Priority>3</Priority>
+        <ProductId>NFSW-NA:49DADAFA</ProductId>
+        <ProductTitle>GM_CATALOG_00000116,1</ProductTitle>
+        <ProductType>PRESETCAR</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon/>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>CASH</Currency>
+        <Description>GM_CATALOG_000002E1,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>-1100665184</Hash>
+        <Icon/>
+        <Level>20</Level>
+        <LongDescription>GM_CATALOG_000002E1,1</LongDescription>
+        <Price>250000.0000</Price>
+        <Priority>1</Priority>
+        <ProductId>NFSW-NA:4EE0518F</ProductId>
+        <ProductTitle>GM_CATALOG_00000101,1</ProductTitle>
+        <ProductType>PRESETCAR</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon/>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>CASH</Currency>
+        <Description>GM_CATALOG_0000010E,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>1329844671</Hash>
+        <Icon/>
+        <Level>10</Level>
+        <LongDescription>GM_CATALOG_0000010E,1</LongDescription>
+        <Price>60000.0000</Price>
+        <Priority>1</Priority>
+        <ProductId>NFSW-NA:4F43D1BF</ProductId>
+        <ProductTitle>GM_CATALOG_00000101,1</ProductTitle>
+        <ProductType>PRESETCAR</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon/>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>CASH</Currency>
+        <Description>GM_CATALOG_0000010E,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>1329844672</Hash>
+        <Icon/>
+        <Level>10</Level>
+        <LongDescription>GM_CATALOG_0000010E,1</LongDescription>
+        <Price>60000.0000</Price>
+        <Priority>3</Priority>
+        <ProductId>NFSW-NA:4F43D1C0</ProductId>
+        <ProductTitle>GM_CATALOG_00000103,1</ProductTitle>
+        <ProductType>PRESETCAR</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon/>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>CASH</Currency>
+        <Description>GM_CATALOG_0000010E,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>1329844677</Hash>
+        <Icon/>
+        <Level>10</Level>
+        <LongDescription>GM_CATALOG_0000010E,1</LongDescription>
+        <Price>60000.0000</Price>
+        <Priority>2</Priority>
+        <ProductId>NFSW-NA:4F43D1C5</ProductId>
+        <ProductTitle>GM_CATALOG_000000FA,1</ProductTitle>
+        <ProductType>PRESETCAR</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon/>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>CASH</Currency>
+        <Description>GM_CATALOG_0000011A,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>1342182250</Hash>
+        <Icon/>
+        <Level>1</Level>
+        <LongDescription>GM_CATALOG_0000011A,1</LongDescription>
+        <Price>20000.0000</Price>
+        <Priority>4</Priority>
+        <ProductId>NFSW-NA:5000136A</ProductId>
+        <ProductTitle>GM_CATALOG_000000FE,1</ProductTitle>
+        <ProductType>PRESETCAR</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon/>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>CASH</Currency>
+        <Description>GM_CATALOG_0000011A,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>1342182251</Hash>
+        <Icon/>
+        <Level>1</Level>
+        <LongDescription>GM_CATALOG_0000011A,1</LongDescription>
+        <Price>20000.0000</Price>
+        <Priority>1</Priority>
+        <ProductId>NFSW-NA:5000136B</ProductId>
+        <ProductTitle>GM_CATALOG_00000101,1</ProductTitle>
+        <ProductType>PRESETCAR</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon/>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>CASH</Currency>
+        <Description>GM_CATALOG_0000011A,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>1342182253</Hash>
+        <Icon/>
+        <Level>1</Level>
+        <LongDescription>GM_CATALOG_0000011A,1</LongDescription>
+        <Price>20000.0000</Price>
+        <Priority>2</Priority>
+        <ProductId>NFSW-NA:5000136D</ProductId>
+        <ProductTitle>GM_CATALOG_00000104,1</ProductTitle>
+        <ProductType>PRESETCAR</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon/>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>CASH</Currency>
+        <Description>GM_CATALOG_0000011A,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>1342341314</Hash>
+        <Icon/>
+        <Level>1</Level>
+        <LongDescription>GM_CATALOG_0000011A,1</LongDescription>
+        <Price>20000.0000</Price>
+        <Priority>3</Priority>
+        <ProductId>NFSW-NA:500280C2</ProductId>
+        <ProductTitle>GM_CATALOG_00000116,1</ProductTitle>
+        <ProductType>PRESETCAR</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon/>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>CASH</Currency>
+        <Description>GM_CATALOG_000002E1,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>-1100665183</Hash>
+        <Icon/>
+        <Level>20</Level>
+        <LongDescription>GM_CATALOG_000002E1,1</LongDescription>
+        <Price>250000.0000</Price>
+        <Priority>4</Priority>
+        <ProductId>NFSW-NA:51357A48</ProductId>
+        <ProductTitle>GM_CATALOG_000000FE,1</ProductTitle>
+        <ProductType>PRESETCAR</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon/>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>CASH</Currency>
+        <Description>GM_CATALOG_000002E1,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>-1100665182</Hash>
+        <Icon/>
+        <Level>20</Level>
+        <LongDescription>GM_CATALOG_000002E1,1</LongDescription>
+        <Price>250000.0000</Price>
+        <Priority>2</Priority>
+        <ProductId>NFSW-NA:538AA2EA</ProductId>
+        <ProductTitle>GM_CATALOG_000000FD,1</ProductTitle>
+        <ProductType>PRESETCAR</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon/>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>CASH</Currency>
+        <Description>GM_CATALOG_000002E1,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>-1100665181</Hash>
+        <Icon/>
+        <Level>20</Level>
+        <LongDescription>GM_CATALOG_000002E1,1</LongDescription>
+        <Price>250000.0000</Price>
+        <Priority>3</Priority>
+        <ProductId>NFSW-NA:55DFCB8C</ProductId>
+        <ProductTitle>GM_CATALOG_000000FA,1</ProductTitle>
+        <ProductType>PRESETCAR</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon/>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>CASH</Currency>
+        <Description>GM_CATALOG_00000105,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>481057334</Hash>
+        <Icon/>
+        <Level>15</Level>
+        <LongDescription>GM_CATALOG_00000105,1</LongDescription>
+        <Price>130000.0000</Price>
+        <Priority>1</Priority>
+        <ProductId>NFSW-NA:5D40278A</ProductId>
+        <ProductTitle>GM_CATALOG_000000FC,1</ProductTitle>
+        <ProductType>PRESETCAR</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon/>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>CASH</Currency>
+        <Description>GM_CATALOG_00000105,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>481057336</Hash>
+        <Icon/>
+        <Level>15</Level>
+        <LongDescription>GM_CATALOG_00000105,1</LongDescription>
+        <Price>130000.0000</Price>
+        <Priority>2</Priority>
+        <ProductId>NFSW-NA:61EA78CD</ProductId>
+        <ProductTitle>GM_CATALOG_00000101,1</ProductTitle>
+        <ProductType>PRESETCAR</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon/>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>CASH</Currency>
+        <Description>GM_CATALOG_00000105,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>481057339</Hash>
+        <Icon/>
+        <Level>15</Level>
+        <LongDescription>GM_CATALOG_00000105,1</LongDescription>
+        <Price>130000.0000</Price>
+        <Priority>3</Priority>
+        <ProductId>NFSW-NA:68E9F2C8</ProductId>
+        <ProductTitle>GM_CATALOG_00000103,1</ProductTitle>
+        <ProductType>PRESETCAR</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon/>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>CASH</Currency>
+        <Description>GM_CATALOG_000000FF,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>1957710934</Hash>
+        <Icon/>
+        <Level>25</Level>
+        <LongDescription>GM_CATALOG_000000FF,1</LongDescription>
+        <Price>400000.0000</Price>
+        <Priority>2</Priority>
+        <ProductId>NFSW-NA:74B04C56</ProductId>
+        <ProductTitle>GM_CATALOG_00000101,1</ProductTitle>
+        <ProductType>PRESETCAR</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon/>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>CASH</Currency>
+        <Description>GM_CATALOG_000000FF,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>1957710938</Hash>
+        <Icon/>
+        <Level>25</Level>
+        <LongDescription>GM_CATALOG_000000FF,1</LongDescription>
+        <Price>400000.0000</Price>
+        <Priority>1</Priority>
+        <ProductId>NFSW-NA:74B04C5A</ProductId>
+        <ProductTitle>GM_CATALOG_000000FC,1</ProductTitle>
+        <ProductType>PRESETCAR</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon/>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>CASH</Currency>
+        <Description>GM_CATALOG_000000FF,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>1957710941</Hash>
+        <Icon/>
+        <Level>25</Level>
+        <LongDescription>GM_CATALOG_000000FF,1</LongDescription>
+        <Price>400000.0000</Price>
+        <Priority>4</Priority>
+        <ProductId>NFSW-NA:74B04C5D</ProductId>
+        <ProductTitle>GM_CATALOG_000000FE,1</ProductTitle>
+        <ProductType>PRESETCAR</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon/>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>CASH</Currency>
+        <Description>GM_CATALOG_0000011D,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>1967807831</Hash>
+        <Icon/>
+        <Level>10</Level>
+        <LongDescription>GM_CATALOG_0000011D,1</LongDescription>
+        <Price>60000.0000</Price>
+        <Priority>3</Priority>
+        <ProductId>NFSW-NA:754A5D57</ProductId>
+        <ProductTitle>GM_CATALOG_00000103,1</ProductTitle>
+        <ProductType>PRESETCAR</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon/>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>CASH</Currency>
+        <Description>GM_CATALOG_0000011D,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>1967807834</Hash>
+        <Icon/>
+        <Level>10</Level>
+        <LongDescription>GM_CATALOG_0000011D,1</LongDescription>
+        <Price>60000.0000</Price>
+        <Priority>2</Priority>
+        <ProductId>NFSW-NA:754A5D5A</ProductId>
+        <ProductTitle>GM_CATALOG_00000101,1</ProductTitle>
+        <ProductType>PRESETCAR</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon/>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>CASH</Currency>
+        <Description>GM_CATALOG_0000011D,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>1967807835</Hash>
+        <Icon/>
+        <Level>10</Level>
+        <LongDescription>GM_CATALOG_0000011D,1</LongDescription>
+        <Price>60000.0000</Price>
+        <Priority>4</Priority>
+        <ProductId>NFSW-NA:754A5D5B</ProductId>
+        <ProductTitle>GM_CATALOG_000000FE,1</ProductTitle>
+        <ProductType>PRESETCAR</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon/>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>CASH</Currency>
+        <Description>GM_CATALOG_0000011D,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>1967807837</Hash>
+        <Icon/>
+        <Level>10</Level>
+        <LongDescription>GM_CATALOG_0000011D,1</LongDescription>
+        <Price>60000.0000</Price>
+        <Priority>1</Priority>
+        <ProductId>NFSW-NA:754A5D5D</ProductId>
+        <ProductTitle>GM_CATALOG_000000FC,1</ProductTitle>
+        <ProductType>PRESETCAR</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon/>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>CASH</Currency>
+        <Description>GM_CATALOG_00000107,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>798456138</Hash>
+        <Icon/>
+        <Level>20</Level>
+        <LongDescription>GM_CATALOG_00000107,1</LongDescription>
+        <Price>250000.0000</Price>
+        <Priority>3</Priority>
+        <ProductId>NFSW-NA:799DD33D</ProductId>
+        <ProductTitle>GM_CATALOG_00000112,1</ProductTitle>
+        <ProductType>PRESETCAR</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon/>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>CASH</Currency>
+        <Description>GM_CATALOG_00000114,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>1114720922</Hash>
+        <Icon/>
+        <Level>25</Level>
+        <LongDescription>GM_CATALOG_00000114,1</LongDescription>
+        <Price>400000.0000</Price>
+        <Priority>3</Priority>
+        <ProductId>NFSW-NA:7CDEF9A0</ProductId>
+        <ProductTitle>GM_CATALOG_00000113,1</ProductTitle>
+        <ProductType>PRESETCAR</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon/>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>CASH</Currency>
+        <Description>GM_CATALOG_00000114,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>1114720923</Hash>
+        <Icon/>
+        <Level>25</Level>
+        <LongDescription>GM_CATALOG_00000114,1</LongDescription>
+        <Price>400000.0000</Price>
+        <Priority>1</Priority>
+        <ProductId>NFSW-NA:7F342242</ProductId>
+        <ProductTitle>GM_CATALOG_00000101,1</ProductTitle>
+        <ProductType>PRESETCAR</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon/>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>CASH</Currency>
+        <Description>GM_CATALOG_0000011E,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>-2136324515</Hash>
+        <Icon/>
+        <Level>5</Level>
+        <LongDescription>GM_CATALOG_0000011E,1</LongDescription>
+        <Price>30000.0000</Price>
+        <Priority>2</Priority>
+        <ProductId>NFSW-NA:80AA465D</ProductId>
+        <ProductTitle>GM_CATALOG_000000FA,1</ProductTitle>
+        <ProductType>PRESETCAR</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon/>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>CASH</Currency>
+        <Description>GM_CATALOG_0000011E,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>-2136324514</Hash>
+        <Icon/>
+        <Level>5</Level>
+        <LongDescription>GM_CATALOG_0000011E,1</LongDescription>
+        <Price>30000.0000</Price>
+        <Priority>3</Priority>
+        <ProductId>NFSW-NA:80AA465E</ProductId>
+        <ProductTitle>GM_CATALOG_00000103,1</ProductTitle>
+        <ProductType>PRESETCAR</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon/>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>CASH</Currency>
+        <Description>GM_CATALOG_0000011E,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>-2136324513</Hash>
+        <Icon/>
+        <Level>5</Level>
+        <LongDescription>GM_CATALOG_0000011E,1</LongDescription>
+        <Price>30000.0000</Price>
+        <Priority>1</Priority>
+        <ProductId>NFSW-NA:80AA465F</ProductId>
+        <ProductTitle>GM_CATALOG_00000101,1</ProductTitle>
+        <ProductType>PRESETCAR</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon/>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>CASH</Currency>
+        <Description>GM_CATALOG_0000011E,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>-2136324508</Hash>
+        <Icon/>
+        <Level>5</Level>
+        <LongDescription>GM_CATALOG_0000011E,1</LongDescription>
+        <Price>30000.0000</Price>
+        <Priority>4</Priority>
+        <ProductId>NFSW-NA:80AA4664</ProductId>
+        <ProductTitle>GM_CATALOG_000000FE,1</ProductTitle>
+        <ProductType>PRESETCAR</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon/>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>CASH</Currency>
+        <Description>GM_CATALOG_00000114,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>1114720926</Hash>
+        <Icon/>
+        <Level>25</Level>
+        <LongDescription>GM_CATALOG_00000114,1</LongDescription>
+        <Price>400000.0000</Price>
+        <Priority>2</Priority>
+        <ProductId>NFSW-NA:86339C26</ProductId>
+        <ProductTitle>GM_CATALOG_000000FA,1</ProductTitle>
+        <ProductType>PRESETCAR</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon/>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>CASH</Currency>
+        <Description>GM_CATALOG_00000107,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>798456145</Hash>
+        <Icon/>
+        <Level>20</Level>
+        <LongDescription>GM_CATALOG_00000107,1</LongDescription>
+        <Price>250000.0000</Price>
+        <Priority>4</Priority>
+        <ProductId>NFSW-NA:89F1EFA5</ProductId>
+        <ProductTitle>GM_CATALOG_000000FE,1</ProductTitle>
+        <ProductType>PRESETCAR</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon/>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>CASH</Currency>
+        <Description>GM_CATALOG_00000107,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>798456146</Hash>
+        <Icon/>
+        <Level>20</Level>
+        <LongDescription>GM_CATALOG_00000107,1</LongDescription>
+        <Price>250000.0000</Price>
+        <Priority>1</Priority>
+        <ProductId>NFSW-NA:8C471847</ProductId>
+        <ProductTitle>GM_CATALOG_00000101,1</ProductTitle>
+        <ProductType>PRESETCAR</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon/>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>CASH</Currency>
+        <Description>GM_CATALOG_00000107,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>579248859</Hash>
+        <Icon/>
+        <Level>20</Level>
+        <LongDescription>GM_CATALOG_00000107,1</LongDescription>
+        <Price>250000.0000</Price>
+        <Priority>2</Priority>
+        <ProductId>NFSW-NA:8FAA9F6D</ProductId>
+        <ProductTitle>GM_CATALOG_000000FD,1</ProductTitle>
+        <ProductType>PRESETCAR</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon/>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>CASH</Currency>
+        <Description>GM_CATALOG_0000010C,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>-1375466520</Hash>
+        <Icon/>
+        <Level>5</Level>
+        <LongDescription>GM_CATALOG_0000010C,1</LongDescription>
+        <Price>35000.0000</Price>
+        <Priority>31</Priority>
+        <ProductId>NFSW-NA:AE040BE8</ProductId>
+        <ProductTitle>GM_CATALOG_00000558,1</ProductTitle>
+        <ProductType>PRESETCAR</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon/>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>CASH</Currency>
+        <Description>GM_CATALOG_00000106,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>577529697</Hash>
+        <Icon/>
+        <Level>10</Level>
+        <LongDescription>GM_CATALOG_00000106,1</LongDescription>
+        <Price>60000.0000</Price>
+        <Priority>1</Priority>
+        <ProductId>NFSW-NA:B25E27AF</ProductId>
+        <ProductTitle>GM_CATALOG_000000FC,1</ProductTitle>
+        <ProductType>PRESETCAR</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon/>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>CASH</Currency>
+        <Description>GM_CATALOG_00000117,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>-1263957375</Hash>
+        <Icon/>
+        <Level>30</Level>
+        <LongDescription>GM_CATALOG_00000117,1</LongDescription>
+        <Price>600000.0000</Price>
+        <Priority>2</Priority>
+        <ProductId>NFSW-NA:B4A98A81</ProductId>
+        <ProductTitle>GM_CATALOG_000000FA,1</ProductTitle>
+        <ProductType>PRESETCAR</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon/>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>CASH</Currency>
+        <Description>GM_CATALOG_00000117,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>-1263957371</Hash>
+        <Icon/>
+        <Level>30</Level>
+        <LongDescription>GM_CATALOG_00000117,1</LongDescription>
+        <Price>600000.0000</Price>
+        <Priority>4</Priority>
+        <ProductId>NFSW-NA:B4A98A85</ProductId>
+        <ProductTitle>GM_CATALOG_000000FE,1</ProductTitle>
+        <ProductType>PRESETCAR</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon/>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>CASH</Currency>
+        <Description>GM_CATALOG_00000117,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>-1263957370</Hash>
+        <Icon/>
+        <Level>30</Level>
+        <LongDescription>GM_CATALOG_00000117,1</LongDescription>
+        <Price>600000.0000</Price>
+        <Priority>1</Priority>
+        <ProductId>NFSW-NA:B4A98A86</ProductId>
+        <ProductTitle>GM_CATALOG_00000101,1</ProductTitle>
+        <ProductType>PRESETCAR</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon/>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>CASH</Currency>
+        <Description>GM_CATALOG_00000106,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>577529698</Hash>
+        <Icon/>
+        <Level>10</Level>
+        <LongDescription>GM_CATALOG_00000106,1</LongDescription>
+        <Price>60000.0000</Price>
+        <Priority>3</Priority>
+        <ProductId>NFSW-NA:B4B35051</ProductId>
+        <ProductTitle>GM_CATALOG_000000FA,1</ProductTitle>
+        <ProductType>PRESETCAR</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon/>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>CASH</Currency>
+        <Description>GM_CATALOG_00000115,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>-1259677634</Hash>
+        <Icon/>
+        <Level>1</Level>
+        <LongDescription>GM_CATALOG_00000115,1</LongDescription>
+        <Price>20000.0000</Price>
+        <Priority>2</Priority>
+        <ProductId>NFSW-NA:B4EAD83E</ProductId>
+        <ProductTitle>GM_CATALOG_000000FA,1</ProductTitle>
+        <ProductType>PRESETCAR</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon/>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>CASH</Currency>
+        <Description>GM_CATALOG_0000011F,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>-1188734455</Hash>
+        <Icon/>
+        <Level>1</Level>
+        <LongDescription>GM_CATALOG_0000011F,1</LongDescription>
+        <Price>20000.0000</Price>
+        <Priority>2</Priority>
+        <ProductId>NFSW-NA:B9255A09</ProductId>
+        <ProductTitle>GM_CATALOG_00000101,1</ProductTitle>
+        <ProductType>PRESETCAR</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon/>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>CASH</Currency>
+        <Description>GM_CATALOG_0000011F,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>-1188734454</Hash>
+        <Icon/>
+        <Level>1</Level>
+        <LongDescription>GM_CATALOG_0000011F,1</LongDescription>
+        <Price>20000.0000</Price>
+        <Priority>3</Priority>
+        <ProductId>NFSW-NA:B9255A0A</ProductId>
+        <ProductTitle>GM_CATALOG_000000FA,1</ProductTitle>
+        <ProductType>PRESETCAR</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon/>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>CASH</Currency>
+        <Description>GM_CATALOG_0000011F,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>-1188734453</Hash>
+        <Icon/>
+        <Level>1</Level>
+        <LongDescription>GM_CATALOG_0000011F,1</LongDescription>
+        <Price>20000.0000</Price>
+        <Priority>1</Priority>
+        <ProductId>NFSW-NA:B9255A0B</ProductId>
+        <ProductTitle>GM_CATALOG_000000FC,1</ProductTitle>
+        <ProductType>PRESETCAR</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon/>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>CASH</Currency>
+        <Description>GM_CATALOG_00000100,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>-1031188662</Hash>
+        <Icon/>
+        <Level>10</Level>
+        <LongDescription>GM_CATALOG_00000100,1</LongDescription>
+        <Price>60000.0000</Price>
+        <Priority>2</Priority>
+        <ProductId>NFSW-NA:BB256C94</ProductId>
+        <ProductTitle>GM_CATALOG_00000101,1</ProductTitle>
+        <ProductType>PRESETCAR</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon/>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>CASH</Currency>
+        <Description>GM_CATALOG_00000106,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>577529701</Hash>
+        <Icon/>
+        <Level>10</Level>
+        <LongDescription>GM_CATALOG_00000106,1</LongDescription>
+        <Price>60000.0000</Price>
+        <Priority>4</Priority>
+        <ProductId>NFSW-NA:BBB2CA35</ProductId>
+        <ProductTitle>GM_CATALOG_000000FE,1</ProductTitle>
+        <ProductType>PRESETCAR</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon/>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>CASH</Currency>
+        <Description>GM_CATALOG_00000118,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>1288094971</Hash>
+        <Icon/>
+        <Level>15</Level>
+        <LongDescription>GM_CATALOG_00000119,1</LongDescription>
+        <Price>130000.0000</Price>
+        <Priority>1</Priority>
+        <ProductId>NFSW-NA:BBF518A4</ProductId>
+        <ProductTitle>GM_CATALOG_00000101,1</ProductTitle>
+        <ProductType>PRESETCAR</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon/>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>CASH</Currency>
+        <Description>GM_CATALOG_00000106,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>577529702</Hash>
+        <Icon/>
+        <Level>10</Level>
+        <LongDescription>GM_CATALOG_00000106,1</LongDescription>
+        <Price>60000.0000</Price>
+        <Priority>2</Priority>
+        <ProductId>NFSW-NA:BE07F2D7</ProductId>
+        <ProductTitle>GM_CATALOG_00000101,1</ProductTitle>
+        <ProductType>PRESETCAR</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon/>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>CASH</Currency>
+        <Description>GM_CATALOG_0000010A,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>-1102268022</Hash>
+        <Icon/>
+        <Level>1</Level>
+        <LongDescription>GM_CATALOG_0000010A,1</LongDescription>
+        <Price>20000.0000</Price>
+        <Priority>2</Priority>
+        <ProductId>NFSW-NA:BE4CB98A</ProductId>
+        <ProductTitle>GM_CATALOG_000000FA,1</ProductTitle>
+        <ProductType>PRESETCAR</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon/>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>CASH</Currency>
+        <Description>GM_CATALOG_00000100,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>-1031188660</Hash>
+        <Icon/>
+        <Level>10</Level>
+        <LongDescription>GM_CATALOG_00000100,1</LongDescription>
+        <Price>60000.0000</Price>
+        <Priority>3</Priority>
+        <ProductId>NFSW-NA:BFCFBDD7</ProductId>
+        <ProductTitle>GM_CATALOG_00000103,1</ProductTitle>
+        <ProductType>PRESETCAR</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon/>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>CASH</Currency>
+        <Description>GM_CATALOG_00000100,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>330512578</Hash>
+        <Icon/>
+        <Level>10</Level>
+        <LongDescription>GM_CATALOG_00000100,1</LongDescription>
+        <Price>60000.0000</Price>
+        <Priority>4</Priority>
+        <ProductId>NFSW-NA:C7D3FD94</ProductId>
+        <ProductTitle>GM_CATALOG_000000FE,1</ProductTitle>
+        <ProductType>PRESETCAR</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon/>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>CASH</Currency>
+        <Description>GM_CATALOG_00000100,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>330512579</Hash>
+        <Icon/>
+        <Level>10</Level>
+        <LongDescription>GM_CATALOG_00000100,1</LongDescription>
+        <Price>60000.0000</Price>
+        <Priority>1</Priority>
+        <ProductId>NFSW-NA:CA292636</ProductId>
+        <ProductTitle>GM_CATALOG_000000FC,1</ProductTitle>
+        <ProductType>PRESETCAR</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon/>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>CASH</Currency>
+        <Description>GM_CATALOG_00000118,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>1288094979</Hash>
+        <Icon/>
+        <Level>15</Level>
+        <LongDescription>GM_CATALOG_00000119,1</LongDescription>
+        <Price>130000.0000</Price>
+        <Priority>4</Priority>
+        <ProductId>NFSW-NA:CE9E5DAD</ProductId>
+        <ProductTitle>GM_CATALOG_000000FE,1</ProductTitle>
+        <ProductType>PRESETCAR</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon/>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>CASH</Currency>
+        <Description>GM_CATALOG_00000111,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>-807724680</Hash>
+        <Icon/>
+        <Level>5</Level>
+        <LongDescription>GM_CATALOG_00000111,1</LongDescription>
+        <Price>30000.0000</Price>
+        <Priority>4</Priority>
+        <ProductId>NFSW-NA:CFDB1978</ProductId>
+        <ProductTitle>GM_CATALOG_000000FE,1</ProductTitle>
+        <ProductType>PRESETCAR</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon/>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>CASH</Currency>
+        <Description>GM_CATALOG_00000118,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>-442538867</Hash>
+        <Icon/>
+        <Level>15</Level>
+        <LongDescription>GM_CATALOG_00000119,1</LongDescription>
+        <Price>130000.0000</Price>
+        <Priority>3</Priority>
+        <ProductId>NFSW-NA:D49A43D7</ProductId>
+        <ProductTitle>GM_CATALOG_00000103,1</ProductTitle>
+        <ProductType>PRESETCAR</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon/>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>CASH</Currency>
+        <Description>GM_CATALOG_0000011F,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>-573531267</Hash>
+        <Icon/>
+        <Level>1</Level>
+        <LongDescription>GM_CATALOG_0000011F,1</LongDescription>
+        <Price>20000.0000</Price>
+        <Priority>4</Priority>
+        <ProductId>NFSW-NA:DDD09B7D</ProductId>
+        <ProductTitle>GM_CATALOG_000000FE,1</ProductTitle>
+        <ProductType>PRESETCAR</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon/>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>CASH</Currency>
+        <Description>GM_CATALOG_00000118,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>-442538860</Hash>
+        <Icon/>
+        <Level>15</Level>
+        <LongDescription>GM_CATALOG_00000119,1</LongDescription>
+        <Price>130000.0000</Price>
+        <Priority>2</Priority>
+        <ProductId>NFSW-NA:E4EE603F</ProductId>
+        <ProductTitle>GM_CATALOG_00000116,1</ProductTitle>
+        <ProductType>PRESETCAR</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon/>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>CASH</Currency>
+        <Description>GM_CATALOG_00000109,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>-405906650</Hash>
+        <Icon/>
+        <Level>30</Level>
+        <LongDescription>GM_CATALOG_00000109,1</LongDescription>
+        <Price>700000.0000</Price>
+        <Priority>31</Priority>
+        <ProductId>NFSW-NA:E7CE5B26</ProductId>
+        <ProductTitle>GM_CATALOG_00000558,1</ProductTitle>
+        <ProductType>PRESETCAR</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon/>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>CASH</Currency>
+        <Description>GM_CATALOG_00000105,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>-1304977080</Hash>
+        <Icon/>
+        <Level>15</Level>
+        <LongDescription>GM_CATALOG_00000105,1</LongDescription>
+        <Price>130000.0000</Price>
+        <Priority>4</Priority>
+        <ProductId>NFSW-NA:E9ECAD36</ProductId>
+        <ProductTitle>GM_CATALOG_000000FE,1</ProductTitle>
+        <ProductType>PRESETCAR</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon/>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>CASH</Currency>
+        <Description>GM_CATALOG_000006A5,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>-238521112</Hash>
+        <Icon/>
+        <Level>27</Level>
+        <LongDescription>GM_CATALOG_000006A5,1</LongDescription>
+        <Price>480000.0000</Price>
+        <Priority>3</Priority>
+        <ProductId>NFSW-NA:F1C874E8</ProductId>
+        <ProductTitle>GM_CATALOG_00000103,1</ProductTitle>
+        <ProductType>PRESETCAR</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon/>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>CASH</Currency>
+        <Description>GM_CATALOG_000006A5,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>-238521111</Hash>
+        <Icon/>
+        <Level>27</Level>
+        <LongDescription>GM_CATALOG_000006A5,1</LongDescription>
+        <Price>480000.0000</Price>
+        <Priority>2</Priority>
+        <ProductId>NFSW-NA:F1C874E9</ProductId>
+        <ProductTitle>GM_CATALOG_000000FA,1</ProductTitle>
+        <ProductType>PRESETCAR</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon/>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>CASH</Currency>
+        <Description>GM_CATALOG_000006A5,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>-238521110</Hash>
+        <Icon/>
+        <Level>27</Level>
+        <LongDescription>GM_CATALOG_000006A5,1</LongDescription>
+        <Price>480000.0000</Price>
+        <Priority>4</Priority>
+        <ProductId>NFSW-NA:F1C874EA</ProductId>
+        <ProductTitle>GM_CATALOG_000000FE,1</ProductTitle>
+        <ProductType>PRESETCAR</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon/>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>CASH</Currency>
+        <Description>GM_CATALOG_000006A5,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>-238521109</Hash>
+        <Icon/>
+        <Level>27</Level>
+        <LongDescription>GM_CATALOG_000006A5,1</LongDescription>
+        <Price>480000.0000</Price>
+        <Priority>1</Priority>
+        <ProductId>NFSW-NA:F1C874EB</ProductId>
+        <ProductTitle>GM_CATALOG_00000101,1</ProductTitle>
+        <ProductType>PRESETCAR</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon/>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>CASH</Currency>
+        <Description>GM_CATALOG_000002DD,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>-1765214060</Hash>
+        <Icon/>
+        <Level>25</Level>
+        <LongDescription>GM_CATALOG_000002DD,1</LongDescription>
+        <Price>400000.0000</Price>
+        <Priority>3</Priority>
+        <ProductId>NFSW-NA:F33473FE</ProductId>
+        <ProductTitle>GM_CATALOG_000000FA,1</ProductTitle>
+        <ProductType>PRESETCAR</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon/>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>CASH</Currency>
+        <Description>GM_CATALOG_000002DD,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>-1765214059</Hash>
+        <Icon/>
+        <Level>25</Level>
+        <LongDescription>GM_CATALOG_000002DD,1</LongDescription>
+        <Price>400000.0000</Price>
+        <Priority>4</Priority>
+        <ProductId>NFSW-NA:F5899CA0</ProductId>
+        <ProductTitle>GM_CATALOG_000000FE,1</ProductTitle>
+        <ProductType>PRESETCAR</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon/>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>CASH</Currency>
+        <Description>GM_CATALOG_000002DD,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>-1765214058</Hash>
+        <Icon/>
+        <Level>25</Level>
+        <LongDescription>GM_CATALOG_000002DD,1</LongDescription>
+        <Price>400000.0000</Price>
+        <Priority>2</Priority>
+        <ProductId>NFSW-NA:F7DEC542</ProductId>
+        <ProductTitle>GM_CATALOG_000000FD,1</ProductTitle>
+        <ProductType>PRESETCAR</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon/>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>CASH</Currency>
+        <Description>GM_CATALOG_000002DD,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>-1765214057</Hash>
+        <Icon/>
+        <Level>25</Level>
+        <LongDescription>GM_CATALOG_000002DD,1</LongDescription>
+        <Price>400000.0000</Price>
+        <Priority>1</Priority>
+        <ProductId>NFSW-NA:FA33EDE4</ProductId>
+        <ProductTitle>GM_CATALOG_00000101,1</ProductTitle>
+        <ProductType>PRESETCAR</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon/>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>CASH</Currency>
+        <Description>GM_CATALOG_0000010F,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>993576678</Hash>
+        <Icon/>
+        <Level>15</Level>
+        <LongDescription>GM_CATALOG_0000010F,1</LongDescription>
+        <Price>130000.0000</Price>
+        <Priority>4</Priority>
+        <ProductId>NFSW-NA:FAFC056B</ProductId>
+        <ProductTitle>GM_CATALOG_000000FE,1</ProductTitle>
+        <ProductType>PRESETCAR</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon/>
+        <WebLocation/>
+    </ProductTrans>
+</ArrayOfProductTrans>
