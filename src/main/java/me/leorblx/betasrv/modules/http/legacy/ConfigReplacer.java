@@ -1,4 +1,4 @@
-package me.leorblx.betasrv.modules.http;
+package me.leorblx.betasrv.modules.http.legacy;
 
 import me.leorblx.betasrv.config.ConfigurationManager;
 

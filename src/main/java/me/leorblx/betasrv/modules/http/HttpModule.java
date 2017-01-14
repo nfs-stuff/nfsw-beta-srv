@@ -3,13 +3,15 @@ package me.leorblx.betasrv.modules.http;
 import com.google.common.base.Preconditions;
 import me.leorblx.betasrv.config.ConfigurationManager;
 import me.leorblx.betasrv.modules.Module;
+import me.leorblx.betasrv.modules.http.legacy.HttpRequestProcessor;
+import me.leorblx.betasrv.modules.http.spring.EmbeddedJetty;
 import me.leorblx.betasrv.utils.Log;
 import me.leorblx.betasrv.utils.NoLogging;
 import org.eclipse.jetty.server.Server;
 
 public class HttpModule implements Module
 {
-    private static final Log LOG = Log.getLog("HTTP");
+    public static final Log LOG = Log.getLog("HTTP");
 
     private Server server;
 
@@ -21,6 +23,8 @@ public class HttpModule implements Module
         try {
             LOG.info("Starting web server...");
 
+//            server = new EmbeddedJetty()
+//                    .startJetty(ConfigurationManager.getInstance().getConfiguration().getHttpPort());
             server = new Server(ConfigurationManager.getInstance().getConfiguration().getHttpPort());
             server.setHandler(new HttpRequestProcessor(LOG));
             server.setStopAtShutdown(true);

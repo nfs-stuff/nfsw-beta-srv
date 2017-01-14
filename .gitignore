@@ -14,7 +14,10 @@ www_*/
 www/nfsw/Engine.svc/catalog_*/
 www/nfsw/Engine.svc/personas/100_old/
 
+full/
 .idea/
+
+src/main/java/me/leorblx/betasrv/modules/http/spring/*
 
 src/betasrv_nah/
 src/offline_old*/

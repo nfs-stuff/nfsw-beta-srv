@@ -1,6 +1,5 @@
-package me.leorblx.betasrv.modules.http;
+package me.leorblx.betasrv.modules.http.legacy;
 
-import me.leorblx.betasrv.config.ConfigurationManager;
 import me.leorblx.betasrv.modules.xmpp.IXmppSender;
 import me.leorblx.betasrv.modules.xmpp.XmppFactory;
 import me.leorblx.betasrv.modules.xmpp.offline.XmppSrv;
@@ -16,17 +15,18 @@ import java.io.File;
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
+import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.Arrays;
 import java.util.List;
 
 public class HttpRequestProcessor extends DefaultHandler
 {
-    private final Log log;
+    public final Log log;
     private final FileResolver fileResolver;
     private final ConfigReplacer configReplacer;
 
-    HttpRequestProcessor(Log log)
+    public HttpRequestProcessor(Log log)
     {
         this.log = log;
         this.fileResolver = new FileResolver();
@@ -37,11 +37,21 @@ public class HttpRequestProcessor extends DefaultHandler
     public void handle(String target, Request baseRequest, HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException
     {
         String modifiedTarget = target;
+        String xmppTarget = modifiedTarget;
 
         boolean isXmpp = false;
+        boolean eventXmpp = false;
 
         if (target.matches("(.*)/powerup/activated(.*)")) {
             isXmpp = true;
+        } else if (target.equalsIgnoreCase("/nfsw/Engine.svc/Reporting/SendJoinQueue")) {
+            xmppTarget = "/nfsw/Engine.svc/matchmaking/session";
+            isXmpp = true;
+        }
+
+        if (target.contains("launchevent")) {
+            modifiedTarget = "/nfsw/Engine.svc/matchmaking/launchevent/100/default";
+            eventXmpp = true;
         }
 
         if (target.contains(".jpg")) {
@@ -65,10 +75,10 @@ public class HttpRequestProcessor extends DefaultHandler
         if (target.matches("/nfsw/Engine.svc/User/SecureLoginPersona")) {
             HttpState.personaId = Long.valueOf(request.getParameter("personaId"));
         }
-        
+
         if (target.matches("/nfsw/Engine.svc/User/SecureLogoutPersona")) {
             IXmppSender sender = XmppFactory.getXmppSenderInstance("offline");
-            
+
             if (sender instanceof XmppSrv)
                 XmppSrv.removeXmppClient(HttpState.personaId);
         }
@@ -84,6 +94,7 @@ public class HttpRequestProcessor extends DefaultHandler
             log.warn("Not found!");
         } else if (!target.contains(".jpg")) {
             log.debug("Sending XML data...");
+
             content = this.configReplacer.replaceVariables(content);
 
             String sContent = new String(content, StandardCharsets.UTF_8);
@@ -104,16 +115,46 @@ public class HttpRequestProcessor extends DefaultHandler
             response.getOutputStream().println();
             response.getOutputStream().flush();
         }
+        
+        for (RequestHandler handler : HandlerManager.getInstance().getHandlers()) {
+            if (handler.applies(baseRequest))
+                handler.handle(baseRequest, request, this);
+        }
+
+//        if (isXmpp) {
+//            log.standOut("Sending XMPP message (" + xmppTarget + ")");
+//
+//            sendXmpp(xmppTarget);
+//        }
+//
+//        if (eventXmpp) {
+//            log.standOut("Sending event XMPP message");
+//
+//            sendXmpp("/nfsw/Engine.svc/matchmaking/session");
+//        }
 
         baseRequest.setHandled(true);
+    }
+
+    public void sendXmppMessage(String fileName)
+    {
+        String pathString = String.format("www%s_xmpp.xml", fileName);
+        log.standOut("XMPP file path: " + pathString);
+
+        Path path = Paths.get(pathString);
         
-//        if ("/nfsw/Engine.svc/matchmaking/launchevent/100/default".equals(modifiedTarget) || "/nfsw/Engine.svc/Reporting/SendJoinQueue".equals(target)) {
-//            log.info("Sending event XMPP message");
-//            sendXmpp("/nfsw/Engine.svc/matchmaking/queue/all");
-//        }
-        
-        if (isXmpp) {
-            sendXmpp(target);
+        if (Files.exists(path)) {
+            try {
+                byte[] data = Files.readAllBytes(path);
+                
+                if (data != null) {
+                    String msg = new String(data, StandardCharsets.UTF_8).replace("RELAYPERSONA", "100");
+                    
+                    XmppFactory.getXmppSenderInstance("offline").send(msg, HttpState.personaId);
+                }
+            } catch (IOException e) {
+                log.log(e);
+            }
         }
     }
 
@@ -121,6 +162,7 @@ public class HttpRequestProcessor extends DefaultHandler
     {
         try {
             String path = "www" + target + "_xmpp.xml";
+            log.standOut("XMPP file path: " + path);
             File fxmpp = new File(path);
             byte[] encoded;
             if (fxmpp.exists()) {

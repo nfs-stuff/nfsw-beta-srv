@@ -1,4 +1,4 @@
-package me.leorblx.betasrv.modules.http;
+package me.leorblx.betasrv.modules.http.legacy;
 
 import java.io.IOException;
 import java.nio.file.Files;
