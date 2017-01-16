@@ -1,6 +1,6 @@
 package me.leorblx.betasrv.modules.xmpp;
 
-import me.leorblx.betasrv.modules.xmpp.offline.XmppSrv;
+import me.leorblx.betasrv.modules.xmpp.offline.XmppServer;
 
 public class XmppFactory
 {
@@ -16,7 +16,7 @@ public class XmppFactory
     private static IXmppSender newXmppSender(String xmppServerType)
     {
         if (xmppServerType.equalsIgnoreCase("offline"))
-            return new XmppSrv();
+            return new XmppServer();
         throw new IllegalArgumentException("Unsupported XMPP server type: " + xmppServerType);
     }
 }

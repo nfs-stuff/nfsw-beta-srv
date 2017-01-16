@@ -2,30 +2,33 @@ package me.leorblx.betasrv.modules.xmpp.offline;
 
 import me.leorblx.betasrv.utils.Concurrency;
 
-import java.io.BufferedReader;
-import java.io.BufferedWriter;
-import java.io.InputStreamReader;
-import java.io.OutputStreamWriter;
+import java.io.*;
 import java.net.Socket;
 import java.util.concurrent.Future;
 
-public class XmppTalk
+public class XmppClient
 {
     private Socket socket;
+
     private BufferedReader reader;
     private BufferedWriter writer;
+
+    private boolean enabled = false;
+
     private int personaId;
 
-    public XmppTalk(Socket socket)
+    public XmppClient(Socket socket)
     {
         this.socket = socket;
-        setReaderWriter();
+
+        initBuffers();
     }
 
     public void setSocket(Socket socket)
     {
         this.socket = socket;
-        setReaderWriter();
+
+        initBuffers();
     }
 
     public Socket getSocket()
@@ -33,8 +36,10 @@ public class XmppTalk
         return socket;
     }
 
-    private void setReaderWriter()
+    private void initBuffers()
     {
+        this.enabled = true;
+
         try {
             reader = new BufferedReader(new InputStreamReader(this.socket.getInputStream()));
             writer = new BufferedWriter(new OutputStreamWriter(this.socket.getOutputStream()));
@@ -46,17 +51,24 @@ public class XmppTalk
     public Future<String> read()
     {
         return Concurrency.submit(() -> {
+            if (!enabled)
+                return null;
+            if (socket.isClosed())
+                return null;
+            
             String msg = null;
-            char[] buffer = new char[8192];
-            int charsRead = 0;
+            char[] buf = new char[8192];
+            int charsRead;
+            
             try {
-                if ((charsRead = reader.read(buffer)) != -1) {
-                    msg = new String(buffer).substring(0, charsRead);
-                    System.out.println("C->S [" + msg + "]");
+                if ((charsRead = reader.read(buf)) != -1) {
+                    msg = new String(buf).substring(0, charsRead);
                 }
             } catch (Exception e) {
-                e.printStackTrace();
+                if (!e.getMessage().contains("Connection reset") && !e.getMessage().contains("Socket is closed"))
+                    e.printStackTrace();
             }
+            
             return msg;
         });
     }
@@ -64,6 +76,9 @@ public class XmppTalk
     public void write(String msg)
     {
         try {
+            if ((!enabled) || (socket.isClosed()))
+                return;
+
             System.out.println("S->C [" + msg + "]");
             writer.write(msg);
             writer.flush();
@@ -80,5 +95,21 @@ public class XmppTalk
     public void setPersonaId(int personaId)
     {
         this.personaId = personaId;
+    }
+
+    public void setEnabled(boolean enabled)
+    {
+        this.enabled = enabled;
+    }
+
+    public void close()
+    {
+        try {
+            this.socket.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        this.enabled = false;
     }
 }

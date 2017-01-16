@@ -2,8 +2,8 @@
                   xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
     <Accolades>
         <FinalRewards>
-            <Rep>100000</Rep>
-            <Tokens>100000</Tokens>
+            <Rep>60</Rep>
+            <Tokens>240</Tokens>
         </FinalRewards>
         <HasLeveledUp>false</HasLeveledUp>
         <LuckyDrawDef
@@ -13,8 +13,8 @@
             <a:DrawsAllowed>1</a:DrawsAllowed>
         </LuckyDrawDef>
         <OriginalRewards>
-            <Rep>100000</Rep>
-            <Tokens>100000</Tokens>
+            <Rep>60</Rep>
+            <Tokens>240</Tokens>
         </OriginalRewards>
         <RewardInfo>
             <RewardPart>

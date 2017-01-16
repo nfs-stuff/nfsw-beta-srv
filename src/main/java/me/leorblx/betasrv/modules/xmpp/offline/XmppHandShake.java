@@ -6,12 +6,15 @@ import java.util.concurrent.TimeoutException;
 
 public class XmppHandShake
 {
-    private XmppTalk xmppTalk;
+    private XmppClient xmppClient;
+    private XmppServer server;
     private int pkgCount = 0;
 
-    public XmppHandShake(XmppTalk xmppTalk)
+    public XmppHandShake(XmppClient xmppClient, XmppServer server)
     {
-        this.xmppTalk = xmppTalk;
+        this.xmppClient = xmppClient;
+        this.server = server;
+
         handShakeBeforeSsl();
         handShakeAfterSsl();
     }
@@ -23,14 +26,14 @@ public class XmppHandShake
         packets[1] = "<proceed xmlns='urn:ietf:params:xml:ns:xmpp-tls'/>";
         do {
             try {
-                xmppTalk.read().get();
-                xmppTalk.write(packets[pkgCount]);
+                xmppClient.read().get();
+                xmppClient.write(packets[pkgCount]);
                 pkgCount++;
             } catch (InterruptedException | ExecutionException e) {
                 e.printStackTrace();
             }
         } while (pkgCount < packets.length);
-        TlsWrapper.wrapXmppTalk(xmppTalk);
+        ConnectionWrapper.wrapXmppTalk(xmppClient);
         pkgCount = 0;
     }
 
@@ -44,9 +47,9 @@ public class XmppHandShake
         packets[3] = "";
         do {
             String read;
-            
+
             try {
-                read = xmppTalk.read().get(3, TimeUnit.SECONDS);
+                read = xmppClient.read().get(3, TimeUnit.SECONDS);
 
                 if (pkgCount == 1) {
                     int start = read.indexOf("<username>nfsw.");
@@ -57,26 +60,25 @@ public class XmppHandShake
                             + "</username><password/><digest/><resource/><clientlock xmlns='http://www.jabber.com/schemas/clientlocking.xsd'/></query></iq>";
                     System.out.println("parse personaId: " + personaId);
                 }
-                xmppTalk.write(packets[pkgCount]);
+                xmppClient.write(packets[pkgCount]);
                 pkgCount++;
             } catch (InterruptedException | ExecutionException e) {
                 e.printStackTrace();
             } catch (TimeoutException e) {
                 System.out.println("Didn't receive anything after 3 seconds, sending next packet");
-                xmppTalk.write(packets[pkgCount]);
+                xmppClient.write(packets[pkgCount]);
                 pkgCount++;
             }
         } while (pkgCount < 3);
         for (int i = 0; i < 3; i++) {
-            xmppTalk.read();
+            xmppClient.read();
         }
-        
-        packets[3] = XmppChat.getPresenceResponse(100L, "en", 13);
+
+        packets[3] = me.leorblx.betasrv.modules.xmpp.offline_old.XmppChat.getPresenceResponse(100L, "en", 13);
 //        packets[3] = "<presence from='channel.en__1@conference.127.0.0.1' to='nfsw." + personaId
 //                + "@127.0.0.1/EA-Chat' type='error'><error code='401' type='auth'><not-authorized xmlns='urn:ietf:params:xml:ns:xmpp-stanzas'/></error><x xmlns='http://jabber.org/protocol/muc'/></presence>";
-        xmppTalk.write(packets[3]);
-        xmppTalk.setPersonaId(personaId);
-        XmppSrv.addXmppClient(personaId, xmppTalk);
+        xmppClient.write(packets[3]);
+        xmppClient.setPersonaId(personaId);
+        server.addClient(personaId, xmppClient);
     }
-
 }

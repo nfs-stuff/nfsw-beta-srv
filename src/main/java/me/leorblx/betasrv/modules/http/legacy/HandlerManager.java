@@ -1,6 +1,6 @@
 package me.leorblx.betasrv.modules.http.legacy;
 
-import me.leorblx.betasrv.modules.http.legacy.handlers.LaunchEventHandler;
+import me.leorblx.betasrv.modules.http.legacy.handlers.*;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -21,6 +21,10 @@ public class HandlerManager
         this.handlers = new ArrayList<>();
         
         this.handlers.add(new LaunchEventHandler());
+        this.handlers.add(new PowerupHandler());
+        this.handlers.add(new PersonaLoginHandler());
+        this.handlers.add(new PersonaLogoutHandler());
+        this.handlers.add(new BasketsHandler());
     }
 
     public List<RequestHandler> getHandlers()

@@ -1,5 +1,7 @@
 package me.leorblx.betasrv.utils;
 
+import me.leorblx.betasrv.event.jaxb.NamespaceMapper;
+
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.Marshaller;
 import javax.xml.bind.Unmarshaller;
@@ -18,6 +20,7 @@ public class XmlUtils
             Marshaller jaxbMarshaller = jaxbContext.createMarshaller();
             jaxbMarshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, false);
             jaxbMarshaller.setProperty(Marshaller.JAXB_FRAGMENT, true);
+            jaxbMarshaller.setProperty("com.sun.xml.internal.bind.namespacePrefixMapper", new NamespaceMapper());
             jaxbMarshaller.marshal(obj, stringWriter);
         } catch (Exception e) {
             e.printStackTrace();

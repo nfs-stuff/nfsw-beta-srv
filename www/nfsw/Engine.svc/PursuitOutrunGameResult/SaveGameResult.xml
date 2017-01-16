@@ -1,0 +1,18 @@
+<PursuitOutrunResults xmlns="http://schemas.datacontract.org/2004/07/EA.NFSWO.ENGINE.DataLayer.Serialization.Event"
+                  xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Accolades>
+        <FinalRewards>
+            <Rep>1337</Rep>
+            <Tokens>1337</Tokens>
+        </FinalRewards>
+        <LuckyDrawDef i:nil="true"/>
+        <OriginalRewards>
+            <Rep>1337</Rep>
+            <Tokens>1337</Tokens>
+        </OriginalRewards>
+        <RewardInfo/>
+    </Accolades>
+    <evaded>true</evaded>
+    <heat>5</heat>
+    <pursuitLength>64560</pursuitLength>
+</PursuitOutrunResults>

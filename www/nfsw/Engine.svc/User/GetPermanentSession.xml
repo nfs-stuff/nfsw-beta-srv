@@ -30,6 +30,33 @@
             <repAtCurrentLevel>164</repAtCurrentLevel>
             <status>ACTIVE</status>
         </ProfileData>
+        <ProfileData>
+            <bio i:nil="true"/>
+            <boost>100000</boost>
+            <cash>12566.00000</cash>
+            <ccar>
+                <PersonaCCar>
+                    <CCID>999999</CCID>
+                    <Heat>5</Heat>
+                    <IsDefault>true</IsDefault>
+                    <PersonaId>200</PersonaId>
+                </PersonaCCar>
+            </ccar>
+            <clan>1</clan>
+            <clanIcon>clanIcon</clanIcon>
+            <displayName>BETASERVER</displayName>
+            <driverExpLevel>50</driverExpLevel>
+            <driverIcon>17</driverIcon>
+            <language i:nil="true"/>
+            <level>60</level>
+            <nickName>BetaServer</nickName>
+            <percentToLevel>29.288889</percentToLevel>
+            <personaId>200</personaId>
+            <raceTickets>100</raceTickets>
+            <rating>950.94999999999993</rating>
+            <rep>3789</rep>
+            <repAtCurrentLevel>164</repAtCurrentLevel>
+        </ProfileData>
     </personas>
     <user>
         <address1 i:nil="true"/>
@@ -40,7 +67,7 @@
         <email i:nil="true"/>
         <emailStatus i:nil="true"/>
         <firstName i:nil="true"/>
-        <fullGameAccess>false</fullGameAccess>
+        <fullGameAccess>true</fullGameAccess>
         <gender i:nil="true"/>
         <idDigits i:nil="true"/>
         <isComplete>false</isComplete>
@@ -55,7 +82,7 @@
         <reasonCode i:nil="true"/>
         <remoteUserId>1000000</remoteUserId>
         <securityToken>cf24841b-a1bb-45a1-9b3e-10f454eba303</securityToken>
-        <starterPackEntitlementTag/>
+        <starterPackEntitlementTag>NFSW_FULL_GAMEPLAY</starterPackEntitlementTag>
         <status i:nil="true"/>
         <subscribeMsg>false</subscribeMsg>
         <tosVersion i:nil="true"/>

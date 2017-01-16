@@ -9,13 +9,13 @@ import javax.servlet.http.HttpServletRequest;
 public class LaunchEventHandler implements RequestHandler
 {
     @Override
-    public boolean applies(Request request)
+    public boolean applies(Request request, String target)
     {
         return request.getRequestURI().contains("launchevent");
     }
 
     @Override
-    public void handle(Request baseRequest, HttpServletRequest request, HttpRequestProcessor requestProcessor)
+    public void handle(Request baseRequest, HttpServletRequest request, HttpRequestProcessor requestProcessor, String target)
     {
         requestProcessor.log.info("Handling launchEvent");
         requestProcessor.sendXmppMessage("/nfsw/Engine.svc/matchmaking/session");

@@ -1,4 +1,4 @@
-package me.leorblx.betasrv.modules.xmpp.offline;
+package me.leorblx.betasrv.modules.xmpp.offline_old;
 
 import me.leorblx.betasrv.config.ConfigurationManager;
 import me.leorblx.betasrv.modules.xmpp.IXmppSender;
@@ -49,6 +49,12 @@ public class XmppSrv implements IXmppSender
 
     public static void removeXmppClient(long personaId)
     {
+        try {
+            xmppClients.get(personaId).getSocket().close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        
         xmppClients.remove(personaId);
     }
 
@@ -95,7 +101,7 @@ public class XmppSrv implements IXmppSender
 
             try {
                 new XmppHandShake(xmppTalk);
-                
+
                 xmppTalk.write(XmppChat.getJoinChannelMessage(100L, 13));
 
 //                xmppTalk.write(XmppChat.getSystemMessage(100L, "Hey there! Welcome to the Beta Server!"));

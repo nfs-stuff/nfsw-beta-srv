@@ -27,7 +27,6 @@ public class NfswServer
         System.setProperty("jsse.enableCBCProtection", "false");
         
         ModuleManager.getInstance().bootAll();
-
         AnsiConsole.systemInstall();
         
         Runtime.getRuntime().addShutdownHook(new Thread(() -> {

@@ -1,4 +1,4 @@
-package me.leorblx.betasrv.modules.xmpp.offline;
+package me.leorblx.betasrv.modules.xmpp.offline_old;
 
 import java.util.concurrent.Future;
 

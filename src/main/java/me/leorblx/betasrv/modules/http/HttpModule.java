@@ -18,7 +18,7 @@ public class HttpModule implements Module
     @Override
     public void boot()
     {
-        org.eclipse.jetty.util.log.Log.setLog(new NoLogging());
+//        org.eclipse.jetty.util.log.Log.setLog(new NoLogging());
 
         try {
             LOG.info("Starting web server...");

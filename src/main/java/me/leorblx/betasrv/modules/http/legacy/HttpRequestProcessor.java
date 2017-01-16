@@ -1,8 +1,6 @@
 package me.leorblx.betasrv.modules.http.legacy;
 
-import me.leorblx.betasrv.modules.xmpp.IXmppSender;
 import me.leorblx.betasrv.modules.xmpp.XmppFactory;
-import me.leorblx.betasrv.modules.xmpp.offline.XmppSrv;
 import me.leorblx.betasrv.utils.Log;
 import me.leorblx.betasrv.utils.MiscUtils;
 import org.eclipse.jetty.server.Request;
@@ -11,6 +9,7 @@ import org.eclipse.jetty.server.handler.DefaultHandler;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import java.io.BufferedReader;
 import java.io.File;
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
@@ -42,16 +41,15 @@ public class HttpRequestProcessor extends DefaultHandler
         boolean isXmpp = false;
         boolean eventXmpp = false;
 
-        if (target.matches("(.*)/powerup/activated(.*)")) {
-            isXmpp = true;
-        } else if (target.equalsIgnoreCase("/nfsw/Engine.svc/Reporting/SendJoinQueue")) {
-            xmppTarget = "/nfsw/Engine.svc/matchmaking/session";
-            isXmpp = true;
-        }
+//        if (target.matches("(.*)/powerup/activated(.*)")) {
+//            isXmpp = true;
+//        } else if (target.equalsIgnoreCase("/nfsw/Engine.svc/Reporting/SendJoinQueue")) {
+//            xmppTarget = "/nfsw/Engine.svc/matchmaking/session";
+//            isXmpp = true;
+//        }
 
         if (target.contains("launchevent")) {
             modifiedTarget = "/nfsw/Engine.svc/matchmaking/launchevent/100/default";
-            eventXmpp = true;
         }
 
         if (target.contains(".jpg")) {
@@ -68,20 +66,25 @@ public class HttpRequestProcessor extends DefaultHandler
             modifiedTarget = target + "_" + baseRequest.getParameter("personaId");
         }
 
-        if (target.matches("(.*)/powerup/activated(.*)")) {
-            isXmpp = true;
+        if (target.matches("(.*)/baskets")) {
+            log.info(readInputStream(request));
         }
 
-        if (target.matches("/nfsw/Engine.svc/User/SecureLoginPersona")) {
-            HttpState.personaId = Long.valueOf(request.getParameter("personaId"));
-        }
-
-        if (target.matches("/nfsw/Engine.svc/User/SecureLogoutPersona")) {
-            IXmppSender sender = XmppFactory.getXmppSenderInstance("offline");
-
-            if (sender instanceof XmppSrv)
-                XmppSrv.removeXmppClient(HttpState.personaId);
-        }
+//        if (target.matches("(.*)/powerup/activated(.*)")) {
+//            isXmpp = true;
+//        }
+//
+//        if (target.contains("SecureLoginPersona")) {
+//            log.info("secureLoginPersona: " + request.getParameter("personaId"));
+//            HttpState.personaId = Long.valueOf(request.getParameter("personaId"));
+//        }
+//
+//        if (target.contains("SecureLogoutPersona")) {
+//            IXmppSender sender = XmppFactory.getXmppSenderInstance("offline");
+//
+//            if (sender instanceof XmppSrv)
+//                XmppSrv.removeXmppClient(HttpState.personaId);
+//        }
 
         log.info(String.format("%s request to %s%s -> %s (from %s)", baseRequest.getMethod(), target, baseRequest.getQueryString() != null ? "?" + baseRequest.getQueryString() : "", modifiedTarget, MiscUtils.formatHost(request.getRemoteHost())));
 
@@ -95,11 +98,28 @@ public class HttpRequestProcessor extends DefaultHandler
         } else if (!target.contains(".jpg")) {
             log.debug("Sending XML data...");
 
+            for (ContentGenerator contentGenerator : ContentGeneratorManager.getInstance().getGenerators()) {
+//                log.info("Trying generator '" + contentGenerator.getClass().getCanonicalName() + "' for request");
+                
+                if (contentGenerator.applies(baseRequest, modifiedTarget)) {
+                    try {
+//                        log.info("Generator works for this request!");
+                        content = contentGenerator.generate(baseRequest, request, this, modifiedTarget).getBytes(StandardCharsets.UTF_8);
+//                        log.info("Sending: " + contentGenerator.generate(baseRequest, request, this, modifiedTarget));
+                    } catch (Exception e) {
+                        log.fatal("While handling request");
+                        log.log(e);
+                    }
+                    
+                    break;
+                }
+            }
+
             content = this.configReplacer.replaceVariables(content);
 
             String sContent = new String(content, StandardCharsets.UTF_8);
             if (sContent.contains("RELAYPERSONA")) {
-                sContent = sContent.replace("RELAYPERSONA", "100");
+                sContent = sContent.replace("RELAYPERSONA", Long.toString(HttpState.personaId));
             } else if (sContent.contains("{eventId}")) {
                 List<String> parts = Arrays.asList(target.split("/"));
                 sContent = sContent.replace("{eventId}", parts.get(parts.size() - 1));
@@ -115,10 +135,10 @@ public class HttpRequestProcessor extends DefaultHandler
             response.getOutputStream().println();
             response.getOutputStream().flush();
         }
-        
+
         for (RequestHandler handler : HandlerManager.getInstance().getHandlers()) {
-            if (handler.applies(baseRequest))
-                handler.handle(baseRequest, request, this);
+            if (handler.applies(baseRequest, modifiedTarget))
+                handler.handle(baseRequest, request, this, modifiedTarget);
         }
 
 //        if (isXmpp) {
@@ -136,20 +156,35 @@ public class HttpRequestProcessor extends DefaultHandler
         baseRequest.setHandled(true);
     }
 
+    public String readInputStream(HttpServletRequest request)
+    {
+        StringBuilder buffer = new StringBuilder();
+        try {
+            BufferedReader reader = request.getReader();
+            String line;
+            while ((line = reader.readLine()) != null) {
+                buffer.append(line);
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return buffer.toString();
+    }
+
     public void sendXmppMessage(String fileName)
     {
         String pathString = String.format("www%s_xmpp.xml", fileName);
         log.standOut("XMPP file path: " + pathString);
 
         Path path = Paths.get(pathString);
-        
+
         if (Files.exists(path)) {
             try {
                 byte[] data = Files.readAllBytes(path);
-                
+
                 if (data != null) {
-                    String msg = new String(data, StandardCharsets.UTF_8).replace("RELAYPERSONA", "100");
-                    
+                    String msg = new String(data, StandardCharsets.UTF_8).replace("RELAYPERSONA", Long.toString(HttpState.personaId));
+
                     XmppFactory.getXmppSenderInstance("offline").send(msg, HttpState.personaId);
                 }
             } catch (IOException e) {
@@ -174,7 +209,7 @@ public class HttpRequestProcessor extends DefaultHandler
 
                     log.info("Sending XMPP message (File: " + path + ")");
                     XmppFactory.getXmppSenderInstance("offline")
-                            .send(msg, 100L);
+                            .send(msg, HttpState.personaId);
                 }
             }
         } catch (Exception e) {

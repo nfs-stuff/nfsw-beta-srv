@@ -6,7 +6,7 @@ import javax.servlet.http.HttpServletRequest;
 
 public interface RequestHandler
 {
-    boolean applies(Request request);
+    boolean applies(Request request, String target);
     
-    void handle(Request baseRequest, HttpServletRequest request, HttpRequestProcessor requestProcessor);
+    void handle(Request baseRequest, HttpServletRequest request, HttpRequestProcessor requestProcessor, String target);
 }

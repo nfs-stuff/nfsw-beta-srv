@@ -14,6 +14,10 @@
     <PhysicsProfile>
         <AttribHash>2329071357</AttribHash>
         <Tier>1</Tier>
+        <Acc>69</Acc>
+        <Handling>69</Handling>
+        <TopSpeed>1337</TopSpeed>
+        <Rating>200</Rating>
     </PhysicsProfile>
     <ResalePrice>0</ResalePrice>
     <RideHeightDrop>0</RideHeightDrop>
