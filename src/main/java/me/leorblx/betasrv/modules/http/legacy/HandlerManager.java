@@ -21,9 +21,11 @@ public class HandlerManager
         this.handlers = new ArrayList<>();
         
         this.handlers.add(new LaunchEventHandler());
+        this.handlers.add(new ArbitrationHandler());
         this.handlers.add(new PowerupHandler());
         this.handlers.add(new PersonaLoginHandler());
-        this.handlers.add(new PersonaLogoutHandler());
+//        this.handlers.add(new PersonaLogoutHandler());
+        this.handlers.add(new PersonaPresenceHandler());
         this.handlers.add(new BasketsHandler());
     }
 

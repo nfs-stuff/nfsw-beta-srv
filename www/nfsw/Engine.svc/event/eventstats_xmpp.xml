@@ -1,0 +1,30 @@
+<message from='nfsw.engine.engine@conference.127.0.0.1/EA_Chat' id='JN_2578' to='nfsw.RELAYPERSONA@127.0.0.1'>
+    &lt;response status='1' ticket='0'&gt;
+        &lt;EventStats&gt;
+            &lt;pid&gt;RELAYPERSONA&lt;/pid&gt;
+            &lt;eventId&gt;79&lt;/eventId&gt;
+            &lt;stats&gt;
+                &lt;Stat&gt;
+                    &lt;id&gt;eventPlayCount&lt;/id&gt;
+                    &lt;val&gt;1&lt;/val&gt;
+                &lt;/Stat&gt;
+                &lt;Stat&gt;
+                    &lt;id&gt;topSpeed&lt;/id&gt;
+                    &lt;val&gt;57.4438&lt;/val&gt;
+                &lt;/Stat&gt;
+                &lt;Stat&gt;
+                    &lt;id&gt;eventBestLapTime&lt;/id&gt;
+                    &lt;val&gt;126.433&lt;/val&gt;
+                &lt;/Stat&gt;
+                &lt;Stat&gt;
+                    &lt;id&gt;eventBestTime&lt;/id&gt;
+                    &lt;val&gt;126.433&lt;/val&gt;
+                &lt;/Stat&gt;
+                &lt;Stat&gt;
+                    &lt;id&gt;eventTopSpeed&lt;/id&gt;
+                    &lt;val&gt;57.4438&lt;/val&gt;
+                &lt;/Stat&gt;
+            &lt;/stats&gt;
+        &lt;/EventStats&gt;
+    &lt;/response&gt;
+</message>

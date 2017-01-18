@@ -7,11 +7,28 @@ import javax.xml.bind.Marshaller;
 import javax.xml.bind.Unmarshaller;
 import javax.xml.stream.XMLInputFactory;
 import javax.xml.stream.XMLStreamReader;
+import java.io.IOException;
 import java.io.StringReader;
 import java.io.StringWriter;
+import java.nio.charset.StandardCharsets;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 
 public class XmlUtils
 {
+    public static String getFromFile(String file)
+    {
+        try {
+            return new String(
+                    Files.readAllBytes(Paths.get(file)),
+                    StandardCharsets.UTF_8
+            );
+        } catch (IOException e) {
+            e.printStackTrace();
+            return "";
+        }
+    }
+
     public static <T> String marshal(T obj)
     {
         StringWriter stringWriter = new StringWriter();

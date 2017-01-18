@@ -1,6 +1,6 @@
 package me.leorblx.betasrv.modules.xmpp.offline;
 
-import me.leorblx.betasrv.config.ConfigurationManager;
+import me.leorblx.betasrv.modules.http.legacy.HttpState;
 import me.leorblx.betasrv.modules.xmpp.IXmppSender;
 import me.leorblx.betasrv.utils.Log;
 import me.leorblx.betasrv.utils.XmlUtils;
@@ -50,6 +50,8 @@ public class XmppServer implements IXmppSender
     @Override
     public void send(String msg, Long to)
     {
+        msg = msg.replace("RELAYPERSONA", Long.toString(HttpState.personaId));
+        
         if (clients.containsKey(to)) {
             XmppClient client = clients.get(to);
 
