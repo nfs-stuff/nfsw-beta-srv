@@ -33,7 +33,10 @@ public class XmppServer implements IXmppSender
      */
     public void removeClient(long personaId)
     {
-        clients.remove(personaId);
+        if (clients.containsKey(personaId)) {
+            clients.get(personaId).close();
+            clients.remove(personaId);
+        }
     }
 
     /**
@@ -80,7 +83,7 @@ public class XmppServer implements IXmppSender
             try {
                 LOG.info("The offline-XMPP server is running.");
                 System.out.println(' ');
-                try (ServerSocket socket = new ServerSocket(ConfigurationManager.getInstance().getConfiguration().getXmppPort())) {
+                try (ServerSocket socket = new ServerSocket(5222)) {
                     while (!socket.isClosed()) {
                         new Capitalizer(socket.accept()).start();
                     }
@@ -119,6 +122,7 @@ public class XmppServer implements IXmppSender
                         input = handler.read().get();
 
                         if (input == null || input.contains("</stream:stream>")) {
+                            removeClient(client.getPersonaId());
                             break;
                         }
                     } catch (InterruptedException | ExecutionException e) {
@@ -126,8 +130,6 @@ public class XmppServer implements IXmppSender
                     }
                 }
             } finally {
-                client.close();
-
                 removeClient(client.getPersonaId());
 
                 LOG.info("Client disconnected from server. PersonaId: " + client.getPersonaId());

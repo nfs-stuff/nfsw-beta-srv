@@ -16,18 +16,18 @@ import java.io.*;
 
 public class PersonaWriter
 {
-    public Long getCash(String personaId)
+    public Float getCash(String personaId)
     {
         try {
             DocumentBuilder docBuilder = DocumentBuilderFactory.newInstance().newDocumentBuilder();
             Document doc = docBuilder.parse("www/nfsw/Engine.svc/DriverPersona/GetPersonaInfo_" + personaId + ".xml");
 
-            return Long.parseLong(doc.getElementsByTagName("cash").item(0).getTextContent());
+            return Float.parseFloat(doc.getElementsByTagName("cash").item(0).getTextContent());
         } catch (ParserConfigurationException | IOException | SAXException pce) {
             pce.printStackTrace();
         }
         
-        return 0L;
+        return 0F;
     }
 
     public void setCash(String cash, String personaId)

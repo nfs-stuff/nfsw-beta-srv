@@ -41,13 +41,13 @@ public class PursuitResultGenerator implements ContentGenerator
                 Integer.parseInt(request.getParameter("copsRammed")),
                 Integer.parseInt(request.getParameter("roadblocksDodged")),
                 Integer.parseInt(request.getParameter("costToState")),
-                Integer.parseInt(request.getParameter("heat"))
+                Float.parseFloat(request.getParameter("heat"))
         );
 
         PursuitOutrunResultsType outrunResultsType = new PursuitOutrunResultsType();
 
         outrunResultsType.setEvaded(finishReason == FinishReason.PURSUIT_EVADED);
-        outrunResultsType.setHeat(5);
+        outrunResultsType.setHeat(result.getHeat());
         outrunResultsType.setPursuitLength(600000);
 
         AccoladesType accoladesType = new AccoladesType();
@@ -69,7 +69,7 @@ public class PursuitResultGenerator implements ContentGenerator
         
         outrunResultsType.setAccolades(accoladesType);
         
-        personaWriter.setCash(personaWriter.getCash(request.getParameter("personaId")).toString(), request.getParameter("personaId"));
+//        personaWriter.setCash(personaWriter.getCash(request.getParameter("personaId")).toString(), request.getParameter("personaId"));
         
         return XmlUtils.marshal(outrunResultsType);
     }

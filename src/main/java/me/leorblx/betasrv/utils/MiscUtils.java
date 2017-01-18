@@ -8,4 +8,9 @@ public class MiscUtils
             return "127.0.0.1";
         return host;
     }
+
+    public static long getUnsignedInt(int x)
+    {
+        return x & 0x00000000ffffffffL;
+    }
 }

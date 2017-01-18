@@ -20,5 +20,5 @@ public interface PursuitResult extends GameEventResult
     
     int getCostToState();
     
-    int getHeat();
+    float getHeat();
 }

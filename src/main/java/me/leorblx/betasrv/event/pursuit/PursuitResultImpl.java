@@ -15,9 +15,9 @@ public class PursuitResultImpl implements PursuitResult
     private final int rammedCops;
     private final int dodgedRoadBlocks;
     private final int costToState;
-    private final int heat;
+    private final float heat;
 
-    public PursuitResultImpl(Long eventSessionId, Long personaId, FinishReason finishReason, boolean evaded, int dodgedSpikeStrips, int disabledCars, int infractions, int deployedCops, int rammedCops, int dodgedRoadBlocks, int costToState, int heat)
+    public PursuitResultImpl(Long eventSessionId, Long personaId, FinishReason finishReason, boolean evaded, int dodgedSpikeStrips, int disabledCars, int infractions, int deployedCops, int rammedCops, int dodgedRoadBlocks, int costToState, float heat)
     {
         this.eventSessionId = eventSessionId;
         this.personaId = personaId;
@@ -100,7 +100,7 @@ public class PursuitResultImpl implements PursuitResult
     }
 
     @Override
-    public int getHeat()
+    public float getHeat()
     {
         return heat;
     }

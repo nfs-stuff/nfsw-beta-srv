@@ -3,6 +3,5 @@
     <channel>13</channel>
     <channelCount>37</channelCount>
     <ip>{config:xmppIp}</ip>
-    <port>{config:xmppPort}</port>
     <prefix>nfsw</prefix>
 </chatServer>

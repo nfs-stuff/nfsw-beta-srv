@@ -14,7 +14,7 @@ public class PursuitOutrunResultsType
     private boolean evaded;
     
     @XmlElement
-    private int heat;
+    private float heat;
     
     @XmlElement
     private int pursuitLength;
@@ -29,12 +29,12 @@ public class PursuitOutrunResultsType
         this.accolades = accolades;
     }
 
-    public int getHeat()
+    public float getHeat()
     {
         return heat;
     }
 
-    public void setHeat(int heat)
+    public void setHeat(float heat)
     {
         this.heat = heat;
     }

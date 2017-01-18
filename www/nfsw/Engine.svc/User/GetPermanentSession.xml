@@ -9,7 +9,7 @@
             <ccar>
                 <PersonaCCar>
                     <CCID>999999</CCID>
-                    <Heat>2.430343</Heat>
+                    <Heat>1</Heat>
                     <IsDefault>true</IsDefault>
                     <PersonaId>100</PersonaId>
                 </PersonaCCar>
@@ -37,7 +37,7 @@
             <ccar>
                 <PersonaCCar>
                     <CCID>999999</CCID>
-                    <Heat>5</Heat>
+                    <Heat>1</Heat>
                     <IsDefault>true</IsDefault>
                     <PersonaId>200</PersonaId>
                 </PersonaCCar>

@@ -2,8 +2,10 @@ package me.leorblx.betasrv.modules.xmpp.offline;
 
 import me.leorblx.betasrv.utils.Concurrency;
 
+import javax.net.ssl.SSLException;
 import java.io.*;
 import java.net.Socket;
+import java.net.SocketException;
 import java.util.concurrent.Future;
 
 public class XmppClient
@@ -64,9 +66,7 @@ public class XmppClient
                 if ((charsRead = reader.read(buf)) != -1) {
                     msg = new String(buf).substring(0, charsRead);
                 }
-            } catch (Exception e) {
-                if (!e.getMessage().contains("Connection reset") && !e.getMessage().contains("Socket is closed"))
-                    e.printStackTrace();
+            } catch (Exception ignored) {
             }
             
             return msg;
@@ -83,7 +83,11 @@ public class XmppClient
             writer.write(msg);
             writer.flush();
         } catch (Exception e) {
-            e.printStackTrace();
+            if (e.getCause() != null) {
+                if (!e.getCause().getMessage().contains("Connection reset")) 
+                    e.printStackTrace();
+            } else if (!e.getMessage().contains("Connection reset"))
+                e.printStackTrace();
         }
     }
 

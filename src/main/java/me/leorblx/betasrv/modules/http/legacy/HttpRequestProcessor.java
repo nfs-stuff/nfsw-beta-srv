@@ -100,18 +100,26 @@ public class HttpRequestProcessor extends DefaultHandler
 
             for (ContentGenerator contentGenerator : ContentGeneratorManager.getInstance().getGenerators()) {
 //                log.info("Trying generator '" + contentGenerator.getClass().getCanonicalName() + "' for request");
-                
+
                 if (contentGenerator.applies(baseRequest, modifiedTarget)) {
                     try {
 //                        log.info("Generator works for this request!");
                         content = contentGenerator.generate(baseRequest, request, this, modifiedTarget).getBytes(StandardCharsets.UTF_8);
-//                        log.info("Sending: " + contentGenerator.generate(baseRequest, request, this, modifiedTarget));
+                        log.info("Sending: " + contentGenerator.generate(baseRequest, request, this, modifiedTarget));
                     } catch (Exception e) {
                         log.fatal("While handling request");
                         log.log(e);
                     }
-                    
+
                     break;
+                }
+            }
+
+            for (RequestMiddleware middleware : RequestMiddlewareManager.getInstance().getMiddlewares()) {
+                if (middleware.applies(baseRequest, modifiedTarget)) {
+                    log.info("Hitting middleware '" + middleware.getClass().getCanonicalName() + "'...");
+                    content = middleware.modify(new String(content, StandardCharsets.UTF_8), baseRequest, request, this, modifiedTarget)
+                            .getBytes(StandardCharsets.UTF_8);
                 }
             }
 
